@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Data sets (public, not redistributed)
+multiple leaf dataset/
+external dataset/
+external/
+mango_map.json
+
+# Experiment outputs
+results/
+results_*/
+archive/
+outputs/
+Guncel_Sonuclar/
+*.pth
+*.onnx
+*.db
+*.log
+*.zip

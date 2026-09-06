@@ -1,0 +1,22 @@
+# === Required ===
+# On a GPU machine install a CUDA build of torch from https://pytorch.org first, e.g. (CUDA 12.1):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# The paper's experiments used torch 2.5.1+cu121, torchvision 0.20.1+cu121 and timm 1.0.28.
+torch>=2.1
+torchvision>=0.16
+timm>=1.0.0
+scikit-learn>=1.3
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+optuna>=3.4              # hyper-parameter optimisation (run_optuna.py)
+Pillow>=10.0
+numpy>=1.24
+tqdm>=4.66
+
+# === Optional (used automatically when installed) ===
+scikit-posthocs>=0.9      # Nemenyi p-value matrix (the CD diagram works without it)
+fvcore>=0.1.5             # GFLOPs measurement (falls back to thop, then NaN)
+thop>=0.1.1               # alternative FLOPs counter
+onnx>=1.15               # ONNX export (train.py --export_onnx)
+jinja2>=3.0               # for pandas .to_latex

@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below and this repository."
+type: software
+title: "HMLA-Net: Hierarchical Multi-scale Lesion-Attention Network for multi-crop leaf disease classification"
+version: 1.0.0
+date-released: 2026-09-06
+license: MIT
+repository-code: "https://github.com/songulkarakus/HMLA-Net"
+authors:
+  - family-names: Karakus
+    given-names: Songul
+    orcid: "https://orcid.org/0000-0003-1999-0203"
+    affiliation: "Department of Computer Engineering, Bitlis Eren University, Turkiye"
+    email: skarakus@beu.edu.tr
+  - family-names: Burukanli
+    given-names: Mehmet
+    orcid: "https://orcid.org/0000-0003-4459-0455"
+    affiliation: "Department of Computer Engineering, Bitlis Eren University, Turkiye"
+  - family-names: Ari
+    given-names: Davut
+    orcid: "https://orcid.org/0000-0001-6439-7957"
+    affiliation: "Department of Computer Engineering, Bitlis Eren University, Turkiye"
+keywords:
+  - plant disease classification
+  - leaf disease
+  - cross-dataset generalisation
+  - zero-shot transfer
+  - multiple-instance learning
+  - MetaFormer
+  - PyTorch
+preferred-citation:
+  type: article
+  title: "Saturated In-Domain, Separable Out-of-Domain: A Hierarchical Multi-Scale Lesion-Attention Network and a Zero-Shot Cross-Corpus Protocol for Multi-Crop Leaf Disease Classification"
+  authors:
+    - family-names: Karakus
+      given-names: Songul
+      orcid: "https://orcid.org/0000-0003-1999-0203"
+    - family-names: Burukanli
+      given-names: Mehmet
+      orcid: "https://orcid.org/0000-0003-4459-0455"
+    - family-names: Ari
+      given-names: Davut
+      orcid: "https://orcid.org/0000-0001-6439-7957"
+  journal: Symmetry
+  year: 2026
+  status: submitted
+  notes: "Under review at Symmetry (MDPI); the DOI will be added upon publication. Code version 1.0."
