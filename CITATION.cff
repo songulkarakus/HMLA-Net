@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite the paper below and this repository."
 type: software
 title: "HMLA-Net: Hierarchical Multi-scale Lesion-Attention Network for multi-crop leaf disease classification"
-version: 1.1.1
+version: 1.1.2
 date-released: 2026-09-07
 license: MIT
 repository-code: "https://github.com/songulkarakus/HMLA-Net"
@@ -44,4 +44,4 @@ preferred-citation:
   journal: Symmetry
   year: 2026
   status: submitted
-  notes: "Under review at Symmetry (MDPI); the DOI will be added upon publication. Code version 1.1.1."
+  notes: "Under review at Symmetry (MDPI); the DOI will be added upon publication. Code version 1.1.2."

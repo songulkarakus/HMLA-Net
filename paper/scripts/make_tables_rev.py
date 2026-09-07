@@ -94,9 +94,10 @@ def t_dataset():
                              r"\textbf{209--500}", ""]) + r" \\")
     head = (r"\textbf{Crop} & \textbf{Classes} & \textbf{Images} & \textbf{Range} & \textbf{Disease classes} \\" + "\n" + r"\midrule")
     notes = (r"Counts are after content-hash (MD5) de-duplication, which removed 76 exact duplicates from the 7{,}255 raw "
-             r"files. The imbalance ratio is 2.39:1. Every class is a folder of the form \texttt{<crop> leaf/<crop> <condition>}; "
-             r"the crop prefix is what the auxiliary crop head of Section~\ref{sec:arch} predicts. Class names are quoted "
-             r"as the corpus defines them (it writes \emph{jackfruit sooty mold}); the text uses \emph{mould}.")
+             r"files. The imbalance ratio is 2.39:1. Each class of the distributed corpus is a folder named by crop and "
+             r"condition inside the folder of that crop, and the crop is the label that the auxiliary crop head of "
+             r"Section~\ref{sec:arch} predicts. Class names are quoted as the corpus defines them (it writes ``jackfruit "
+             r"sooty mold''), whereas the text uses ``mould''.")
     emit("tab_dataset", wrap(head + "\n" + "\n".join(lines), "@{}l r r r L@{}", "Composition of the four-crop corpus.",
                              "tab:dataset", notes, small=r"\small"))
 
@@ -130,13 +131,13 @@ def t_external():
     A_ = N["A"]
     notes = (r"Zero-shot: the checkpoints of Table~\ref{tab:internal} are applied to MLD24 without any training, "
              r"fine-tuning or target-domain statistic. Because MLD24 covers 6 of the 21 labels, every macro average here is "
-             r"taken over those six classes and is therefore \emph{not} of the same cardinality as the 21-class macro "
-             r"averages of Table~\ref{tab:internal} (Section~\ref{sec:metrics}). Models are ordered by accuracy; "
+             r"taken over those six classes and is therefore not of the same cardinality as the 21-class macro "
+             r"averages of Table~\ref{tab:internal} (Section~\ref{sec:metrics}). Models are ordered by accuracy, and "
              r"\#$_{\mathrm{int}}$ is the rank of the same model in Table~\ref{tab:internal}. F1$_{\mathrm{restr.}}$ is "
-             r"macro-F1 when the logits are restricted to the six shared classes (protocol P3, a separate experiment); Leak "
+             r"macro-F1 when the logits are restricted to the six shared classes (protocol P3, a separate experiment). Leak "
              r"is the share of MLD24 images assigned to one of the 15 labels absent from MLD24. $\Delta$acc.\ is the "
              r"accuracy lost between the partitions. Because the six classes are equally sized, accuracy, balanced accuracy "
-             r"and macro-recall coincide. G-mean is the geometric mean of the six per-class recalls: one class at zero recall "
+             r"and macro-recall coincide. G-mean is the geometric mean of the six per-class recalls, so one class at zero recall "
              r"drives it below 0.01 whatever the remaining recalls. The replicate-to-replicate difference of the same configuration on this "
              rf"partition is {N['replication']['external_f1']['mean_abs_pp']:.1f}~pp of macro-F1 on average "
              r"(Section~\ref{sec:res-replication}), so the leading group is not internally ordered.")
@@ -169,17 +170,17 @@ def t_recipe():
             r"\textbf{HMLA recipe} & \textbf{$\Delta$ (pp)} & \textbf{HMLA-Net $-$ backbone (pp)} \\" + "\n" + r"\midrule")
     T = N["replication"]["hmla_triplicate"]["external_f1"]
     C = N["replication"]["caformer_matched_duplicate"]["external_f1"]
-    notes = (r"Replication B, mean (\tiny$\pm$\footnotesize s.d.) over the same three seeds and partitions. \emph{generic} is the common recipe of "
-             r"Section~\ref{sec:baselines}; \emph{HMLA recipe} adds MixUp/CutMix, EMA weights, layer-wise learning-rate "
+    notes = (r"Replication B, mean (\tiny$\pm$\footnotesize s.d.) over the same three seeds and partitions. The generic column is the common recipe of "
+             r"Section~\ref{sec:baselines}, and the HMLA recipe column adds MixUp/CutMix, EMA weights, layer-wise learning-rate "
              r"decay and $V_4$ flip test-time augmentation, i.e.\ the complete training and inference recipe of the "
              r"proposed model with its architectural components (MSF, LAP, crop head, MixStyle) switched off. $\Delta$ "
-             r"is HMLA recipe minus generic (positive: the recipe helps). The last column is HMLA-Net minus the backbone "
-             r"under the identical recipe, the controlled comparison of Section~\ref{sec:res-recipe}; against CAFormer-S18 it is "
+             r"is HMLA recipe minus generic, so a positive value means that the recipe helps. The last column is HMLA-Net minus the backbone "
+             r"under the identical recipe, the controlled comparison of Section~\ref{sec:res-recipe}. Against CAFormer-S18 it is "
              rf"{RM['ext_arch_effect_vs_caformer_pp']:+.2f}~pp, and with all replication-B runs pooled "
              rf"(HMLA-Net {T['mean9']:.4f} over nine runs, CAFormer-S18 with the HMLA recipe {C['mean6']:.4f} over six) it "
              rf"is {RM['pooled_arch_effect_pp']:+.2f}~pp, inside the replicate-to-replicate variation of "
              rf"{N['replication']['external_f1']['mean_abs_pp']:.1f}~pp. None of the {RM['n_tests']} paired comparisons "
-             r"survives Holm correction (three blocks; Section~\ref{sec:stats}).")
+             r"survives Holm correction (three blocks, Section~\ref{sec:stats}).")
     emit("tab_recipe", wrap(
         "\n".join([head] + rows), "@{}L c c c c c c c@{}",
         "Recipe-matched comparison. Five backbones were retrained with the complete HMLA-Net recipe so that the "
@@ -203,16 +204,16 @@ def t_replication():
             r"\textbf{max rank move} \\" + "\n" + r"\midrule")
     T = R["hmla_triplicate"]
     notes = (r"Two complete, independent executions of the 26 generic-recipe configurations (25 backbones and the "
-             r"proposed model, three seeds each): replication A produced the original submission, replication B this "
-             r"revision. Same code, recorded hyper-parameters, partitions and hardware; non-deterministic cuDNN "
+             r"proposed model, three seeds each), carried out three weeks apart with the same code, recorded "
+             r"hyper-parameters, partitions and hardware. Non-deterministic cuDNN "
              r"kernels and data-loader ordering are the expected sources of the difference. $\Delta$ is A minus B for the "
              r"same configuration, seed and partition, in percentage points, and s.d.($\Delta$) is the standard deviation "
-             r"of the signed $\Delta$; $\bar{\Delta}$ is A minus B for the three-seed means of a configuration, the "
-             r"quantity on which the tables of this paper compare models; \emph{spread} is the range of the 26 "
-             r"three-seed means; "
-             r"$\rho_{AB}$ is the Spearman correlation between the two orderings; \emph{max rank move} is the largest "
+             r"of the signed $\Delta$. $\bar{\Delta}$ is A minus B for the three-seed means of a configuration, the "
+             r"quantity on which the tables of this paper compare models. The spread columns give the range of the 26 "
+             r"three-seed means, "
+             r"$\rho_{AB}$ is the Spearman correlation between the two orderings, and the max rank move column is the largest "
              r"change of rank of any configuration. HMLA-Net itself was trained three times in replication B "
-             r"(benchmark entry, ablation reference and a dedicated repeat); its nine runs give internal macro-F1 "
+             r"(benchmark entry, ablation reference and a dedicated repeat), and its nine runs give internal macro-F1 "
              rf"{T['internal_f1']['mean9']:.4f}\,$\pm$\,{T['internal_f1']['sd9']:.4f} and external macro-F1 "
              rf"{T['external_f1']['mean9']:.4f}\,$\pm$\,{T['external_f1']['sd9']:.4f}, with the three-seed means of the "
              rf"replicates at {', '.join(f'{v:.4f}' for v in T['external_f1']['replicate_means'])} externally.")
@@ -226,16 +227,16 @@ def t_ablation():
     body = re.sub(r"\\caption\{Component ablation measured on both partitions\..*?\\label\{tab:ablation\}\}",
                   lambda m: (r"\caption{Component ablation of replication A measured on both partitions. Removing a component "
                              r"changes internal macro-F1 by at most 0.29~pp once pre-training is excluded, whereas the same "
-                             r"removals change zero-shot macro-F1 by up to 5.06~pp; the two columns of $\Delta$ are only weakly "
+                             r"removals change zero-shot macro-F1 by up to 5.06~pp. The two columns of $\Delta$ are only weakly "
                              r"related (Spearman $\rho = 0.44$, $p = 0.08$), and the external ordering is not reproduced by the "
                              r"second execution (Section~\ref{sec:res-ablation}).\label{tab:ablation}}"), body, count=1, flags=re.S)
     assert "noise of the pipeline" not in body
     body = body.replace("MixUp cool-down & 0.9846", r"MixUp cool-down\,$^{\ddagger}$ & 0.9846", 1)
     body = body.replace(r"\emph{MixUp cool-down} completed two of the three seeds on the internal partition and all three on MLD24.",
-                        r"$^{\ddagger}$ \emph{MixUp cool-down} completed two of the three seeds on the internal partition and all "
-                        r"three on MLD24; its internal value is therefore not fully paired and is excluded from the paired "
+                        r"$^{\ddagger}$ The MixUp cool-down variant completed two of the three seeds on the internal partition and all "
+                        r"three on MLD24, so its internal value is not fully paired and is excluded from the paired "
                         r"statistics. In the second execution of the benchmark (Section~\ref{sec:res-replication}) all 16 removals "
-                        r"completed all three seeds; that execution's ablation is provided as supplementary material and its "
+                        r"completed all three seeds. That execution's ablation is provided in the repository and its "
                         r"external ordering of the components correlates with this one at Spearman $\rho = "
                         + f"{N['ablation']['spearman_AB_ext_delta']:.2f}" + r"$ under either reference definition of Section~\ref{sec:res-ablation}.")
     emit("tab_ablation", body)
@@ -254,14 +255,14 @@ def t_tta():
             ("--" if inv is None else f"{inv['orbit_dev']:.1e}"), ("--" if inv is None else f"{inv['raw_dev']:.3f}")]) + r" \\")
     head = (r"\textbf{Group $G$} & \textbf{$|G|$} & \textbf{Int.\ F1} & \textbf{Ext.\ acc.} & \textbf{Ext.\ F1} & "
             r"\textbf{ms} & \textbf{img/s} & \textbf{orbit dev.} & \textbf{raw dev.} \\" + "\n" + r"\midrule")
-    notes = (r"One checkpoint of HMLA-Net (replication B, seed 1234) evaluated under three inference groups; latency at "
-             r"a batch size of one on the RTX A4000. \emph{orbit dev.} is the largest absolute change of the orbit-averaged "
+    notes = (r"One checkpoint of HMLA-Net (replication B, seed 1234) evaluated under three inference groups, with latency at "
+             r"a batch size of one on the RTX A4000. The orbit dev.\ column is the largest absolute change of the orbit-averaged "
              r"posterior when the input is transformed by an element of $G$ (floating-point noise only, i.e.\ exact "
-             r"invariance); \emph{raw dev.} is the same quantity for the single-view network, which is only "
+             r"invariance), and the raw dev.\ column is the same quantity for the single-view network, which is only "
              r"approximately equivariant after training-time flip augmentation. The differences between the three "
              rf"rows ({T['ext_f1_gain_klein_pp']:+.2f} and {T['ext_f1_gain_d4_pp']:+.2f}~pp of external macro-F1 for "
              r"$V_4$ and $D_4$ against no TTA) are single-run measurements and lie within the replicate-to-replicate "
-             r"variation of Section~\ref{sec:res-replication}; the latency ratios are measured values for this system and batch size.")
+             r"variation of Section~\ref{sec:res-replication}. The latency ratios are measured values for this system and batch size.")
     emit("tab_tta", wrap(
         "\n".join([head] + rows), "@{}L c c c c c c c c@{}",
         "Orbit averaging at inference: what the symmetry group costs and buys.", "tab:tta", notes))

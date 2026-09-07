@@ -14,5 +14,5 @@ Tomato & 7 & 2{,}197 & 222--394 & \scriptsize bacterial spot, blight, curl virus
 \textbf{Total} & \textbf{21} & \textbf{7{,}179} & \textbf{209--500} &  \\
 \bottomrule
 \end{tabularx}
-\noindent{\footnotesize{Counts are after content-hash (MD5) de-duplication, which removed 76 exact duplicates from the 7{,}255 raw files. The imbalance ratio is 2.39:1. Every class is a folder of the form \texttt{<crop> leaf/<crop> <condition>}; the crop prefix is what the auxiliary crop head of Section~\ref{sec:arch} predicts. Class names are quoted as the corpus defines them (it writes \emph{jackfruit sooty mold}); the text uses \emph{mould}.}}
+\noindent{\footnotesize{Counts are after content-hash (MD5) de-duplication, which removed 76 exact duplicates from the 7{,}255 raw files. The imbalance ratio is 2.39:1. Each class of the distributed corpus is a folder named by crop and condition inside the folder of that crop, and the crop is the label that the auxiliary crop head of Section~\ref{sec:arch} predicts. Class names are quoted as the corpus defines them (it writes ``jackfruit sooty mold''), whereas the text uses ``mould''.}}
 \end{table}

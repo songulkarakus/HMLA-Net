@@ -9,7 +9,7 @@ Official code of the paper
 > **Note:** the manuscript is currently under review at *Symmetry* (MDPI). Full citation
 > details will be added upon publication.
 
-**Code version 1.0** (September 2026). This release is the code that produced the results
+**Code version 1.1.2** (September 2026). This release is the code that produced the results
 of the manuscript under review. Should the revision process change any of the reported
 experiments, an updated version will be released under a new tag; the version history is
 kept in the repository tags and in `CITATION.cff`.
@@ -219,7 +219,7 @@ Two points the paper makes explicitly and that the code reproduces:
   within run-to-run variation, so the paper does not attribute it to the architecture.
 
 The full tables, per-image predictions of both executions and the scripts that regenerate
-every table and figure of the manuscript are provided as the paper's supplementary material.
+every table and figure of the manuscript are provided in the `paper/` directory of this repository (Section 8).
 
 ## 8. Partition files, derived numbers and the paper's scripts
 
