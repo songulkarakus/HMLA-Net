@@ -9,7 +9,7 @@ Everything the manuscript quotes can be checked from this folder without retrain
 | `replication_B/` | The execution of the revision (replication B, 150 runs): `runs/` with the same per-run files for the 26 generic configurations, 16 removals, five recipe-matched baselines and the repeat runs, and the Grad-CAM / LAP attention grids of the proposed model; `summary/`, `statistics/`, `recipe_matched/` (including the machine-readable recipe matrix), `zero_shot_protocols/`, `duplicate_audit/`, `class_forensics/` (with the side-by-side image panels of the six shared classes), `tta_symmetry/`, `parameter_analysis/`, `figures/`. |
 | `submitted_version/` | Number store and ablation summary of the submitted version (used to keep Tables 3, 7 and 8 identical to it). |
 | `architecture/` | `component_locations.csv`: module path, input, output shape and role of every HMLA-Net component. |
-| `scripts/` | `derive_A.py`, `derive_numbers_rev.py`, `make_figures_rev.py`, `make_tables_rev.py`, `clean_test_rescoring.py`, `compare_numbers.py`, `reproduce.sh` and the preserved table bodies of the submitted version (`tables_submitted/`). |
+| `scripts/` | `derive_A.py`, `derive_numbers_rev.py`, `make_figures_rev.py`, `make_tables_rev.py`, `make_tables_submitted.py`, `clean_test_rescoring.py`, `compare_numbers.py`, `reproduce.sh` and the preserved table bodies of the submitted version (`tables_submitted/`). |
 | `output/` | What the scripts produce: `derived/` (intermediate CSV/JSON), `numbers.json` (every quantity quoted in the paper) and `tables/` (LaTeX bodies of the generated tables). The 600 dpi figures are not committed; the scripts regenerate them into `output/figures/`. |
 | `reference/numbers.json` | Frozen copy of `output/numbers.json` against which `compare_numbers.py` checks a regeneration. |
 
@@ -33,8 +33,11 @@ bash paper/scripts/reproduce.sh
 runs, in order, `derive_A.py` (zero-shot protocols P1–P3 and leakage from the replication-A predictions,
 clean-test re-scoring, parameter fits, six-class internal accuracy), `derive_numbers_rev.py` (every number
 → `output/numbers.json`, `output/derived/*.csv`), `make_figures_rev.py` (`output/figures/*.png`),
-`make_tables_rev.py` (`output/tables/*.tex`) and `compare_numbers.py`, which reports whether the regenerated
-`numbers.json` is identical to `reference/numbers.json`. The chain was verified in a clean directory; it
+`make_tables_rev.py` (`output/tables/*.tex`), `make_tables_submitted.py` (the bodies of Tables 3, 7 and 8,
+which the revision keeps from the submitted version, regenerated from `replication_A/summary/`,
+`submitted_version/` and the per-class CSVs of the proposed model with the generator of the submitted
+version, and checked to be identical to `scripts/tables_submitted/`) and `compare_numbers.py`, which reports
+whether the regenerated `numbers.json` is identical to `reference/numbers.json`. The chain was verified in a clean directory; it
 takes a few minutes on a laptop and needs no GPU. Requirements: Python ≥ 3.10 with numpy, pandas, scipy,
 scikit-learn, matplotlib and Pillow.
 
@@ -42,6 +45,23 @@ Only the within-corpus near-duplicate scan (`clean_test_rescoring.py`) needs the
 (doi:10.17632/3xd9n7jpc8.1); its outputs (`output/derived/_phash_internal.csv`, `_clean_test_pairs_seed*.csv`,
 `_clean_test_summary.json`) are committed so the rest of the chain runs without it. To re-run the scan, place
 the Mendeley zip in this folder or set `LEAF_ZIP`.
+
+## Regenerating the statistics from the archived runs
+
+The statistical results of a replication (summary tables, Friedman/Nemenyi with the critical-difference
+diagram, Wilcoxon and paired t tests with Holm correction, McNemar with bootstrap intervals, ablation
+deltas) are produced by `analyze.py` of this repository from the run folders and `master_results.csv`.
+Because the archived run folders keep that layout, the statistics can be recomputed in place:
+
+```bash
+python analyze.py --out_dir paper/replication_A/runs      # or paper/replication_B/runs
+```
+
+For replication A this rewrites `summary_internal_test.csv`, `proposed_vs_baselines.csv`, `mcnemar.json`,
+`ablation_summary.csv`, `stats_report.json` and `cd_diagram.png` in that folder; the values equal the
+archived ones (checked: Friedman statistic, p and CD, the per-seed McNemar p values and the Holm-corrected
+Wilcoxon table agree to floating-point precision). The McNemar test needs the per-image predictions, i.e.
+the release asset described above.
 
 ## Replication A versus B
 

@@ -228,7 +228,9 @@ the three seeds with their SHA-256 fingerprints (`paper/partitions/`), the archi
 runs of both executions of the benchmark (`paper/replication_A/`, `paper/replication_B/`: configuration,
 metrics, per-class results, selection records, analyses, duplicate audit, class-level forensics), every
 number quoted in the manuscript (`paper/output/numbers.json`), the LaTeX bodies of the generated tables
-(`paper/output/tables/`) and the scripts that derive all of them (`paper/scripts/`). The per-image
+(`paper/output/tables/`) and the scripts that derive all of them (`paper/scripts/`; the statistics are
+recomputed from the archived runs by `analyze.py`, and the table bodies kept from the submitted version are
+regenerated and checked by `make_tables_submitted.py`). The per-image
 predictions of the runs (about 240 MB) are attached to the release of this version as `predictions.zip`
 and are downloaded by `paper/scripts/reproduce.sh` when absent; `paper/README.md` and `paper/MANIFEST.md`
 describe the layout and map every table and figure to its sources.
