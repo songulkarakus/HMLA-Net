@@ -1,0 +1,772 @@
+{
+  "dataset": {
+    "n_classes": 21,
+    "n_plants": 4,
+    "n_images_dedup": 7179,
+    "n_images_raw": 7255,
+    "n_duplicates_removed": 76,
+    "images_per_plant": {
+      "cashew": 480,
+      "jackfruit": 1814,
+      "mango": 2688,
+      "tomato": 2197
+    },
+    "min_class": 209,
+    "max_class": 500,
+    "imbalance_ratio": 2.39,
+    "common_dimensions": {
+      "480x360": 1050
+    },
+    "n_test_images": 1077,
+    "n_val_images": null,
+    "classes": [
+      {
+        "class": "cashew fungal infection",
+        "plant": "cashew",
+        "n_images": 235
+      },
+      {
+        "class": "cashew healthy",
+        "plant": "cashew",
+        "n_images": 245
+      },
+      {
+        "class": "jackfruit algal",
+        "plant": "jackfruit",
+        "n_images": 245
+      },
+      {
+        "class": "jackfruit anthracnose",
+        "plant": "jackfruit",
+        "n_images": 321
+      },
+      {
+        "class": "jackfruit healthy",
+        "plant": "jackfruit",
+        "n_images": 316
+      },
+      {
+        "class": "jackfruit leaf spot",
+        "plant": "jackfruit",
+        "n_images": 368
+      },
+      {
+        "class": "jackfruit phyllosticta",
+        "plant": "jackfruit",
+        "n_images": 344
+      },
+      {
+        "class": "jackfruit sooty mold",
+        "plant": "jackfruit",
+        "n_images": 220
+      },
+      {
+        "class": "mango anthracnose",
+        "plant": "mango",
+        "n_images": 486
+      },
+      {
+        "class": "mango die back",
+        "plant": "mango",
+        "n_images": 493
+      },
+      {
+        "class": "mango gall midge",
+        "plant": "mango",
+        "n_images": 500
+      },
+      {
+        "class": "mango healthy",
+        "plant": "mango",
+        "n_images": 500
+      },
+      {
+        "class": "mango powdery mildew",
+        "plant": "mango",
+        "n_images": 500
+      },
+      {
+        "class": "mango sooty mould",
+        "plant": "mango",
+        "n_images": 209
+      },
+      {
+        "class": "tomato bacterial spot",
+        "plant": "tomato",
+        "n_images": 376
+      },
+      {
+        "class": "tomato blight",
+        "plant": "tomato",
+        "n_images": 285
+      },
+      {
+        "class": "tomato curl virus",
+        "plant": "tomato",
+        "n_images": 394
+      },
+      {
+        "class": "tomato healthy",
+        "plant": "tomato",
+        "n_images": 277
+      },
+      {
+        "class": "tomato insect damage",
+        "plant": "tomato",
+        "n_images": 336
+      },
+      {
+        "class": "tomato leaf mold",
+        "plant": "tomato",
+        "n_images": 222
+      },
+      {
+        "class": "tomato spider mites",
+        "plant": "tomato",
+        "n_images": 307
+      }
+    ],
+    "split_sizes": {
+      "total": 7179,
+      "test": 1077
+    }
+  },
+  "internal": {
+    "n_models": 26,
+    "best": "Proposed_HMLA_CAFormerS18",
+    "proposed_f1": 0.9845,
+    "proposed_f1_sd": 0.0012,
+    "proposed_acc": 0.9882,
+    "proposed_acc_sd": 0.0014,
+    "f1_min": 0.9677,
+    "f1_max": 0.9845,
+    "f1_spread_pp": 1.68,
+    "worst_model": "resnet101",
+    "backbone_f1": 0.9812,
+    "backbone_rank": 13,
+    "gap_to_2nd_pp": 0.017,
+    "gap_to_8th_pp": 0.11
+  },
+  "external": {
+    "n_images": 4800,
+    "n_classes": 6,
+    "n_models": 26,
+    "proposed_acc": 0.6994,
+    "proposed_acc_sd": 0.0116,
+    "proposed_f1": 0.6739,
+    "proposed_f1_sd": 0.0225,
+    "proposed_auc": 0.9204,
+    "proposed_rank_acc": 1,
+    "proposed_rank_f1": 4,
+    "backbone_acc": 0.6284,
+    "backbone_f1": 0.6548,
+    "backbone_rank_acc": 12,
+    "backbone_rank_f1": 9,
+    "gain_over_backbone_acc_pp": 7.1,
+    "gain_over_backbone_f1_pp": 1.91,
+    "acc_min": 0.2265,
+    "acc_max": 0.6994,
+    "acc_spread_pp": 47.3,
+    "f1_min": 0.3152,
+    "f1_max": 0.6842,
+    "f1_spread_pp": 36.9,
+    "worst_model": "vgg19"
+  },
+  "transfer": {
+    "spearman_f1": 0.509,
+    "spearman_f1_p": 0.0079,
+    "spearman_acc": 0.412,
+    "spearman_acc_p": 0.0367,
+    "kendall_tau": 0.36,
+    "kendall_p": 0.0096,
+    "proposed_drop_acc_pp": 28.9,
+    "proposed_drop_f1_pp": 31.1,
+    "median_drop_acc_pp": 36.1,
+    "median_drop_f1_pp": 34.7,
+    "min_drop_acc_pp": 28.9,
+    "max_drop_acc_pp": 75.7,
+    "max_drop_model": "vgg19",
+    "vgg16_int_rank": 3,
+    "vgg16_ext_rank": 25,
+    "vgg16_ext_acc": 0.2417
+  },
+  "ablation": {
+    "n_variants": 17,
+    "full_int_f1": 0.9851,
+    "full_ext_f1": 0.6751,
+    "full_ext_acc": 0.6937,
+    "rows": [
+      {
+        "variant": "wo_pretrained",
+        "int_f1": 0.9236,
+        "int_sd": 0.0044,
+        "ext_f1": 0.3873,
+        "ext_sd": 0.0196,
+        "ext_acc": 0.3931,
+        "d_int_pp": 6.15,
+        "d_ext_pp": 28.78,
+        "d_ext_acc_pp": 30.07,
+        "wilcoxon_p": 0.25,
+        "cohens_d": 13.93
+      },
+      {
+        "variant": "wo_llrd",
+        "int_f1": 0.9861,
+        "int_sd": 0.0033,
+        "ext_f1": 0.6245,
+        "ext_sd": 0.0581,
+        "ext_acc": 0.6201,
+        "d_int_pp": -0.1,
+        "d_ext_pp": 5.06,
+        "d_ext_acc_pp": 7.36,
+        "wilcoxon_p": 0.75,
+        "cohens_d": -0.25
+      },
+      {
+        "variant": "wo_mixup",
+        "int_f1": 0.9839,
+        "int_sd": 0.0065,
+        "ext_f1": 0.6269,
+        "ext_sd": 0.0408,
+        "ext_acc": 0.6535,
+        "d_int_pp": 0.12,
+        "d_ext_pp": 4.82,
+        "d_ext_acc_pp": 4.03,
+        "wilcoxon_p": 0.75,
+        "cohens_d": 0.22
+      },
+      {
+        "variant": "wo_mixstyle",
+        "int_f1": 0.9859,
+        "int_sd": 0.0034,
+        "ext_f1": 0.6339,
+        "ext_sd": 0.0356,
+        "ext_acc": 0.6127,
+        "d_int_pp": -0.07,
+        "d_ext_pp": 4.11,
+        "d_ext_acc_pp": 8.1,
+        "wilcoxon_p": 0.75,
+        "cohens_d": -0.19
+      },
+      {
+        "variant": "wo_label_smoothing",
+        "int_f1": 0.9868,
+        "int_sd": 0.0058,
+        "ext_f1": 0.6423,
+        "ext_sd": 0.0452,
+        "ext_acc": 0.6724,
+        "d_int_pp": -0.17,
+        "d_ext_pp": 3.27,
+        "d_ext_acc_pp": 2.13,
+        "wilcoxon_p": 0.5,
+        "cohens_d": -0.33
+      },
+      {
+        "variant": "wo_tta",
+        "int_f1": 0.9859,
+        "int_sd": 0.0037,
+        "ext_f1": 0.644,
+        "ext_sd": 0.0316,
+        "ext_acc": 0.6537,
+        "d_int_pp": -0.08,
+        "d_ext_pp": 3.11,
+        "d_ext_acc_pp": 4.01,
+        "wilcoxon_p": 1.0,
+        "cohens_d": -0.19
+      },
+      {
+        "variant": "wo_mixup_cooldown",
+        "int_f1": 0.9846,
+        "int_sd": 0.0051,
+        "ext_f1": 0.65,
+        "ext_sd": 0.0287,
+        "ext_acc": 0.6561,
+        "d_int_pp": 0.05,
+        "d_ext_pp": 2.51,
+        "d_ext_acc_pp": 3.76,
+        "wilcoxon_p": 0.5,
+        "cohens_d": 0.28
+      },
+      {
+        "variant": "wo_lap",
+        "int_f1": 0.9852,
+        "int_sd": 0.0033,
+        "ext_f1": 0.6541,
+        "ext_sd": 0.0275,
+        "ext_acc": 0.6556,
+        "d_int_pp": -0.01,
+        "d_ext_pp": 2.1,
+        "d_ext_acc_pp": 3.81,
+        "wilcoxon_p": 1.0,
+        "cohens_d": -0.03
+      },
+      {
+        "variant": "wo_ema",
+        "int_f1": 0.984,
+        "int_sd": 0.0052,
+        "ext_f1": 0.6624,
+        "ext_sd": 0.0581,
+        "ext_acc": 0.6874,
+        "d_int_pp": 0.11,
+        "d_ext_pp": 1.27,
+        "d_ext_acc_pp": 0.63,
+        "wilcoxon_p": 1.0,
+        "cohens_d": 0.23
+      },
+      {
+        "variant": "wo_beta_calib",
+        "int_f1": 0.988,
+        "int_sd": 0.0051,
+        "ext_f1": 0.6626,
+        "ext_sd": 0.0143,
+        "ext_acc": 0.693,
+        "d_int_pp": -0.29,
+        "d_ext_pp": 1.24,
+        "d_ext_acc_pp": 0.08,
+        "wilcoxon_p": 0.25,
+        "cohens_d": -0.6
+      },
+      {
+        "variant": "wo_random_erasing",
+        "int_f1": 0.9851,
+        "int_sd": 0.0064,
+        "ext_f1": 0.6632,
+        "ext_sd": 0.0181,
+        "ext_acc": 0.6615,
+        "d_int_pp": 0.0,
+        "d_ext_pp": 1.19,
+        "d_ext_acc_pp": 3.23,
+        "wilcoxon_p": 1.0,
+        "cohens_d": 0.0
+      },
+      {
+        "variant": "wo_two_phase",
+        "int_f1": 0.9862,
+        "int_sd": 0.0055,
+        "ext_f1": 0.6718,
+        "ext_sd": 0.0139,
+        "ext_acc": 0.7003,
+        "d_int_pp": -0.11,
+        "d_ext_pp": 0.33,
+        "d_ext_acc_pp": -0.65,
+        "wilcoxon_p": 1.0,
+        "cohens_d": -0.21
+      },
+      {
+        "variant": "wo_msf",
+        "int_f1": 0.9875,
+        "int_sd": 0.0021,
+        "ext_f1": 0.6759,
+        "ext_sd": 0.0269,
+        "ext_acc": 0.6841,
+        "d_int_pp": -0.23,
+        "d_ext_pp": -0.08,
+        "d_ext_acc_pp": 0.97,
+        "wilcoxon_p": 0.5,
+        "cohens_d": -0.68
+      },
+      {
+        "variant": "wo_hier",
+        "int_f1": 0.9864,
+        "int_sd": 0.0014,
+        "ext_f1": 0.6764,
+        "ext_sd": 0.0214,
+        "ext_acc": 0.6862,
+        "d_int_pp": -0.13,
+        "d_ext_pp": -0.13,
+        "d_ext_acc_pp": 0.76,
+        "wilcoxon_p": 0.75,
+        "cohens_d": -0.4
+      },
+      {
+        "variant": "wo_lap_gate",
+        "int_f1": 0.9853,
+        "int_sd": 0.0023,
+        "ext_f1": 0.6789,
+        "ext_sd": 0.0147,
+        "ext_acc": 0.6894,
+        "d_int_pp": -0.01,
+        "d_ext_pp": -0.38,
+        "d_ext_acc_pp": 0.43,
+        "wilcoxon_p": 1.0,
+        "cohens_d": -0.04
+      },
+      {
+        "variant": "wo_sampler",
+        "int_f1": 0.9863,
+        "int_sd": 0.0043,
+        "ext_f1": 0.6835,
+        "ext_sd": 0.0261,
+        "ext_acc": 0.7028,
+        "d_int_pp": -0.12,
+        "d_ext_pp": -0.84,
+        "d_ext_acc_pp": -0.9,
+        "wilcoxon_p": 1.0,
+        "cohens_d": -0.26
+      }
+    ],
+    "spearman_int_ext_delta": 0.444,
+    "spearman_int_ext_delta_p": 0.0848,
+    "n_positive_int": 5,
+    "n_positive_ext": 12
+  },
+  "noise_floor": {
+    "int_f1_full": 0.9851,
+    "int_f1_proposed": 0.9845,
+    "int_diff_pp": 0.063,
+    "ext_f1_full": 0.6751,
+    "ext_f1_proposed": 0.6739,
+    "ext_diff_pp": 0.118,
+    "ext_acc_full": 0.6937,
+    "ext_acc_proposed": 0.6994
+  },
+  "stats": {
+    "friedman_all": {
+      "chi2": 40.983,
+      "p": 0.0231,
+      "k": 26,
+      "n_blocks": 3,
+      "cd": 22.97,
+      "proposed_avg_rank": 7.0,
+      "best_avg_rank": 6.67,
+      "worst_avg_rank": 26.0,
+      "max_rank_gap": 19.33
+    },
+    "friedman_top8": {
+      "chi2": 0.333,
+      "p": 0.9999,
+      "k": 8,
+      "cd": 6.06
+    },
+    "mcnemar": {
+      "best_baseline": "swin_small_patch4_window7_224",
+      "per_seed": [
+        {
+          "seed": 42,
+          "n01": 5,
+          "n10": 3,
+          "p": 0.7266,
+          "acc": 0.9879,
+          "ci_lo": 0.9805,
+          "ci_hi": 0.9944
+        },
+        {
+          "seed": 1234,
+          "n01": 3,
+          "n10": 8,
+          "p": 0.2266,
+          "acc": 0.987,
+          "ci_lo": 0.9796,
+          "ci_hi": 0.9935
+        },
+        {
+          "seed": 2024,
+          "n01": 4,
+          "n10": 1,
+          "p": 0.375,
+          "acc": 0.9898,
+          "ci_lo": 0.9833,
+          "ci_hi": 0.9954
+        }
+      ]
+    },
+    "wilcoxon": {
+      "n_baselines": 25,
+      "n_significant_holm": 0,
+      "min_possible_p": 0.25,
+      "min_raw_p": 0.25,
+      "max_cohens_d": 9.14
+    }
+  },
+  "complexity": {
+    "proposed_params_M": 23.9,
+    "proposed_gflops": 3.97,
+    "proposed_size_MB": 91.2,
+    "proposed_latency_tta_ms": 44.4,
+    "proposed_latency_single_ms": 11.1,
+    "proposed_fps": 22.5,
+    "proposed_train_sec": 864.0,
+    "backbone_params_M": 24.3,
+    "top8_params_median_M": 38.2,
+    "top8_params_max_M": 134.3,
+    "top8_gflops_min": 1.63,
+    "params_smaller_than_top8": 6,
+    "smallest_model": "mobilenetv2_100",
+    "smallest_params_M": 2.25
+  },
+  "per_class_external": [
+    {
+      "class": "mango die back",
+      "precision": 1.0,
+      "precision_sd": 0.0,
+      "recall": 0.97,
+      "recall_sd": 0.0331,
+      "f1": 0.9846,
+      "f1_sd": 0.0172,
+      "support": 800
+    },
+    {
+      "class": "mango healthy",
+      "precision": 0.9319,
+      "precision_sd": 0.0243,
+      "recall": 0.9617,
+      "recall_sd": 0.0263,
+      "f1": 0.9461,
+      "f1_sd": 0.0024,
+      "support": 800
+    },
+    {
+      "class": "mango anthracnose",
+      "precision": 0.8097,
+      "precision_sd": 0.1186,
+      "recall": 0.9567,
+      "recall_sd": 0.0326,
+      "f1": 0.8722,
+      "f1_sd": 0.0603,
+      "support": 800
+    },
+    {
+      "class": "mango gall midge",
+      "precision": 0.7268,
+      "precision_sd": 0.033,
+      "recall": 0.6158,
+      "recall_sd": 0.0826,
+      "f1": 0.6641,
+      "f1_sd": 0.0435,
+      "support": 800
+    },
+    {
+      "class": "mango powdery mildew",
+      "precision": 0.485,
+      "precision_sd": 0.0527,
+      "recall": 0.6867,
+      "recall_sd": 0.0765,
+      "f1": 0.5665,
+      "f1_sd": 0.048,
+      "support": 800
+    },
+    {
+      "class": "mango sooty mould",
+      "precision": 0.0887,
+      "precision_sd": 0.1198,
+      "recall": 0.0054,
+      "recall_sd": 0.0056,
+      "f1": 0.0101,
+      "f1_sd": 0.0108,
+      "support": 800
+    }
+  ],
+  "per_class_internal": {
+    "n_perfect": 14,
+    "min_f1_class": "cashew fungal infection",
+    "min_f1": 0.8792,
+    "sooty_mould_f1": 1.0,
+    "rows": [
+      {
+        "class": "cashew fungal infection",
+        "precision": 0.9335,
+        "recall": 0.8381,
+        "f1": 0.8792,
+        "support": 35.0
+      },
+      {
+        "class": "cashew healthy",
+        "precision": 0.8636,
+        "recall": 0.9369,
+        "f1": 0.8964,
+        "support": 37.0
+      },
+      {
+        "class": "jackfruit algal",
+        "precision": 0.9499,
+        "recall": 0.982,
+        "f1": 0.9646,
+        "support": 36.7
+      },
+      {
+        "class": "jackfruit anthracnose",
+        "precision": 0.9655,
+        "recall": 0.9722,
+        "f1": 0.9687,
+        "support": 48.0
+      },
+      {
+        "class": "jackfruit healthy",
+        "precision": 0.9931,
+        "recall": 1.0,
+        "f1": 0.9965,
+        "support": 47.0
+      },
+      {
+        "class": "jackfruit leaf spot",
+        "precision": 0.9877,
+        "recall": 0.9758,
+        "f1": 0.9817,
+        "support": 55.0
+      },
+      {
+        "class": "jackfruit phyllosticta",
+        "precision": 1.0,
+        "recall": 0.974,
+        "f1": 0.9867,
+        "support": 51.7
+      },
+      {
+        "class": "jackfruit sooty mold",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 33.0
+      },
+      {
+        "class": "mango anthracnose",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 73.0
+      },
+      {
+        "class": "mango die back",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 74.0
+      },
+      {
+        "class": "mango gall midge",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 75.0
+      },
+      {
+        "class": "mango healthy",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 75.0
+      },
+      {
+        "class": "mango powdery mildew",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 75.0
+      },
+      {
+        "class": "mango sooty mould",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 31.7
+      },
+      {
+        "class": "tomato bacterial spot",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 57.0
+      },
+      {
+        "class": "tomato blight",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 43.0
+      },
+      {
+        "class": "tomato curl virus",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 59.0
+      },
+      {
+        "class": "tomato healthy",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 41.0
+      },
+      {
+        "class": "tomato insect damage",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 50.3
+      },
+      {
+        "class": "tomato leaf mold",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 33.7
+      },
+      {
+        "class": "tomato spider mites",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 46.0
+      }
+    ]
+  },
+  "calibration": {
+    "int_ece": 0.0789,
+    "int_ece_best": 0.0769,
+    "int_ece_best_model": "legacy_seresnext50_32x4d",
+    "ext_ece": 0.0833,
+    "ext_ece_sd": 0.036
+  },
+  "environment": {
+    "python": "3.11.5",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "torch": "2.5.1+cu121",
+    "cuda_available": true,
+    "cuda_version": "12.1",
+    "cudnn": 90100,
+    "gpu": "NVIDIA RTX A4000",
+    "timm": "1.0.28",
+    "numpy": "2.4.4",
+    "sklearn": "1.9.0",
+    "scipy": "1.17.1",
+    "torchvision": "0.20.1+cu121"
+  },
+  "beta": {
+    "selected": 0.0,
+    "grid": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.75,
+      1.0,
+      1.5,
+      2.0
+    ]
+  },
+  "zero_recall": {
+    "n_models": 26,
+    "any_seed": 19,
+    "all_seeds": 5,
+    "never": 7,
+    "never_models": [
+      "densenet121",
+      "efficientnet_b0",
+      "ghostnet_100",
+      "mnasnet_100",
+      "resnet101",
+      "swin_tiny_patch4_window7_224",
+      "vit_base_patch16_224"
+    ],
+    "never_f1_min": 0.5311,
+    "never_f1_max": 0.6619,
+    "proposed_sooty_recall_per_seed": [
+      0.01125,
+      0.0,
+      0.005
+    ],
+    "proposed_other5_mean_recall": 0.838
+  }
+}

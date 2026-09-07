@@ -1,0 +1,20 @@
+\begin{table}[H]
+\caption{Per-class behaviour of HMLA-Net on the six mango classes that both corpora share.\label{tab:perclass}}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\textwidth}{@{}L r c c c r c c c@{}}
+\toprule
+\multirow{2}{*}{\textbf{Mango class}} & \multicolumn{4}{c}{\textbf{Internal test}} & \multicolumn{4}{c}{\textbf{Zero-shot MLD24}} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}
+ & \textbf{$n$} & \textbf{Prec.} & \textbf{Rec.} & \textbf{F1} & \textbf{$n$} & \textbf{Prec.} & \textbf{Rec.} & \textbf{F1} \\
+\midrule
+die back & 74 & 1.000 & 1.000 & 1.000 & 800 & 1.000 & 0.970 & 0.985\,\tiny$\pm$0.017 \\
+healthy & 75 & 1.000 & 1.000 & 1.000 & 800 & 0.932 & 0.962 & 0.946\,\tiny$\pm$0.002 \\
+anthracnose & 73 & 1.000 & 1.000 & 1.000 & 800 & 0.810 & 0.957 & 0.872\,\tiny$\pm$0.060 \\
+gall midge & 75 & 1.000 & 1.000 & 1.000 & 800 & 0.727 & 0.616 & 0.664\,\tiny$\pm$0.043 \\
+powdery mildew & 75 & 1.000 & 1.000 & 1.000 & 800 & 0.485 & 0.687 & 0.567\,\tiny$\pm$0.048 \\
+\textbf{sooty mould} & 32 & 1.000 & 1.000 & 1.000 & 800 & 0.089 & 0.005 & 0.010\,\tiny$\pm$0.011 \\
+\bottomrule
+\end{tabularx}
+\noindent{\footnotesize{Mean over three seeds; internal support is the mean test-partition count. The six classes are those MLD24 shares with our label space. \emph{sooty mould} is classified perfectly in-domain and is essentially unrecognised out-of-domain (recall 0.011 / 0.000 / 0.005 in the three seeds) while the other five average 0.838. Section~\ref{sec:res-perclass} shows that a collapse of one class to exactly zero recall is shared by 19 of the 26 architectures, which points to a difference in what the two corpora label rather than to a property of any one model.}}
+\end{table}

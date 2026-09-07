@@ -1,0 +1,18 @@
+\begin{table}[H]
+\caption{Composition of the four-crop corpus.\label{tab:dataset}}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\textwidth}{@{}l r r r L@{}}
+\toprule
+\textbf{Crop} & \textbf{Classes} & \textbf{Images} & \textbf{Range} & \textbf{Disease classes} \\
+\midrule
+Cashew & 2 & 480 & 235--245 & \scriptsize fungal infection, healthy \\
+Jackfruit & 6 & 1{,}814 & 220--368 & \scriptsize algal, anthracnose, healthy, leaf spot, phyllosticta, sooty mold \\
+Mango & 6 & 2{,}688 & 209--500 & \scriptsize anthracnose, die back, gall midge, healthy, powdery mildew, sooty mould \\
+Tomato & 7 & 2{,}197 & 222--394 & \scriptsize bacterial spot, blight, curl virus, healthy, insect damage, leaf mold, spider mites \\
+\midrule
+\textbf{Total} & \textbf{21} & \textbf{7{,}179} & \textbf{209--500} &  \\
+\bottomrule
+\end{tabularx}
+\noindent{\footnotesize{Counts are after content-hash (MD5) de-duplication, which removed 76 exact duplicates from the 7{,}255 raw files. The imbalance ratio is 2.39:1. Every class is a folder of the form \texttt{<crop> leaf/<crop> <condition>}; the crop prefix is what the auxiliary crop head of Section~\ref{sec:arch} predicts. Class names are quoted as the corpus defines them (it writes \emph{jackfruit sooty mold}); the text uses \emph{mould}.}}
+\end{table}

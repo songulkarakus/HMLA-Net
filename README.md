@@ -106,6 +106,7 @@ make_report.py          Markdown report of all outputs
 train.py / predict.py   simple single-model path and single-image prediction
 tools/                  supervisor (auto-restart), external-result collector, result archiver
 mld24_map.json          MLD24 folder → class mapping used for the external validation
+paper/                  partition files, derived numbers and the scripts that regenerate the paper's tables and figures
 docs/                   figures used in this README
 ```
 
@@ -220,7 +221,16 @@ Two points the paper makes explicitly and that the code reproduces:
 The full tables, per-image predictions of both executions and the scripts that regenerate
 every table and figure of the manuscript are provided as the paper's supplementary material.
 
-## 8. Single-image prediction
+## 8. Partition files, derived numbers and the paper's scripts
+
+`paper/` contains the exact train / validation / test partitions of the three seeds with their SHA-256
+fingerprints (`paper/partitions/`), every number quoted in the manuscript (`paper/output/numbers.json`),
+the LaTeX bodies of the generated tables (`paper/output/tables/`) and the scripts that derive all of them
+from the archived run outputs of both executions of the benchmark (`paper/scripts/`). The archived run
+outputs themselves (about 280 MB of per-image predictions) are distributed as the paper's supplementary
+material; `paper/README.md` explains how to run the chain on top of them.
+
+## 9. Single-image prediction
 
 ```bash
 python predict.py --ckpt results/proposed/Proposed_HMLA_CAFormerS18/seed42/best.pth \
@@ -230,7 +240,7 @@ python predict.py --ckpt results/proposed/Proposed_HMLA_CAFormerS18/seed42/best.
 `train.py` is a stand-alone script that trains one plain `timm` classifier with the same data
 handling; it is not used for the paper's results.
 
-## 9. Citation
+## 10. Citation
 
 If you use this code, please cite the paper (under review at *Symmetry*, MDPI; the citation
 will be completed upon publication) and the two data sets:
@@ -248,7 +258,7 @@ will be completed upon publication) and the two data sets:
 
 Machine-readable metadata is in `CITATION.cff`.
 
-## 10. License
+## 11. License
 
 The code is released under the MIT License (see `LICENSE`). The data sets belong to their
 respective authors and are distributed under their own licences.

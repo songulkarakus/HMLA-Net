@@ -1,0 +1,32 @@
+\begin{table}[H]
+\caption{Component ablation of replication A measured on both partitions. Removing a component changes internal macro-F1 by at most 0.29~pp once pre-training is excluded, whereas the same removals change zero-shot macro-F1 by up to 5.06~pp; the two columns of $\Delta$ are only weakly related (Spearman $\rho = 0.44$, $p = 0.08$), and the external ordering is not reproduced by the second execution (Section~\ref{sec:res-ablation}).\label{tab:ablation}}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\textwidth}{@{}L c c c c c c@{}}
+\toprule
+\multirow{2}{*}{\textbf{Component removed}} & \multicolumn{2}{c}{\textbf{Internal test}} & \multicolumn{4}{c}{\textbf{Zero-shot MLD24}} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-7}
+ & \textbf{Macro-F1} & \textbf{$\Delta$ (pp)} & \textbf{Macro-F1} & \textbf{$\Delta$ (pp)} & \textbf{Acc.} & \textbf{$\Delta$ (pp)} \\
+\midrule
+\emph{full model} & 0.9851\,\tiny$\pm$0.0044 & -- & 0.6751\,\tiny$\pm$0.0047 & -- & 0.6937 & -- \\
+\midrule
+ImageNet pre-training & 0.9236\,\tiny$\pm$0.0044 & +6.15 & 0.3873\,\tiny$\pm$0.0196 & +28.78 & 0.3931 & +30.07 \\
+layer-wise learning-rate decay & 0.9861\,\tiny$\pm$0.0033 & -0.10 & 0.6245\,\tiny$\pm$0.0581 & +5.06 & 0.6201 & +7.36 \\
+MixUp / CutMix & 0.9839\,\tiny$\pm$0.0065 & +0.12 & 0.6269\,\tiny$\pm$0.0408 & +4.82 & 0.6535 & +4.03 \\
+\textbf{MixStyle} & 0.9859\,\tiny$\pm$0.0034 & -0.07 & 0.6339\,\tiny$\pm$0.0356 & +4.11 & 0.6127 & +8.10 \\
+label smoothing & 0.9868\,\tiny$\pm$0.0058 & -0.17 & 0.6423\,\tiny$\pm$0.0452 & +3.27 & 0.6724 & +2.13 \\
+flip test-time augmentation & 0.9859\,\tiny$\pm$0.0037 & -0.08 & 0.6440\,\tiny$\pm$0.0316 & +3.11 & 0.6537 & +4.01 \\
+MixUp cool-down\,$^{\ddagger}$ & 0.9846\,\tiny$\pm$0.0051 & +0.05 & 0.6500\,\tiny$\pm$0.0287 & +2.51 & 0.6561 & +3.76 \\
+\textbf{LAP (lesion-aware pooling)} & 0.9852\,\tiny$\pm$0.0033 & -0.01 & 0.6541\,\tiny$\pm$0.0275 & +2.10 & 0.6556 & +3.81 \\
+EMA weights & 0.9840\,\tiny$\pm$0.0052 & +0.11 & 0.6624\,\tiny$\pm$0.0581 & +1.27 & 0.6874 & +0.63 \\
+$\beta$ calibration & 0.9880\,\tiny$\pm$0.0051 & -0.29 & 0.6626\,\tiny$\pm$0.0143 & +1.24 & 0.6930 & +0.08 \\
+random erasing & 0.9851\,\tiny$\pm$0.0064 & +0.00 & 0.6632\,\tiny$\pm$0.0181 & +1.19 & 0.6615 & +3.23 \\
+two-phase schedule & 0.9862\,\tiny$\pm$0.0055 & -0.11 & 0.6718\,\tiny$\pm$0.0139 & +0.33 & 0.7003 & -0.65 \\
+\textbf{MSF (multi-scale fusion)} & 0.9875\,\tiny$\pm$0.0021 & -0.23 & 0.6759\,\tiny$\pm$0.0269 & -0.08 & 0.6841 & +0.97 \\
+\textbf{auxiliary plant head} & 0.9864\,\tiny$\pm$0.0014 & -0.13 & 0.6764\,\tiny$\pm$0.0214 & -0.13 & 0.6862 & +0.76 \\
+\textbf{LAP gating and multi-head attention} & 0.9853\,\tiny$\pm$0.0023 & -0.01 & 0.6789\,\tiny$\pm$0.0147 & -0.38 & 0.6894 & +0.43 \\
+class-balanced sampler & 0.9863\,\tiny$\pm$0.0043 & -0.12 & 0.6835\,\tiny$\pm$0.0261 & -0.84 & 0.7028 & -0.90 \\
+\bottomrule
+\end{tabularx}
+\noindent{\footnotesize{Every variant is trained from scratch with the same three seeds and the same partitions as the full model. $\Delta$ is the metric of the full model minus the metric of the variant, so a \emph{positive} $\Delta$ means the removed component contributes. Architectural components are set in bold; the remainder belong to the training recipe. No $\Delta$ on the internal partition survives a Holm--Bonferroni-corrected Wilcoxon test, and with three paired blocks the smallest attainable two-sided $p$ is 0.25, so the internal column is reported as a descriptive measurement rather than a test. $^{\ddagger}$ \emph{MixUp cool-down} completed two of the three seeds on the internal partition and all three on MLD24; its internal value is therefore not fully paired and is excluded from the paired statistics. In the second execution of the benchmark (Section~\ref{sec:res-replication}) all 16 removals completed all three seeds; that execution's ablation is provided as supplementary material and its external ordering of the components correlates with this one at Spearman $\rho = 0.34$ under either reference definition of Section~\ref{sec:res-ablation}.}}
+\end{table}

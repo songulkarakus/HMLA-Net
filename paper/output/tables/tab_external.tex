@@ -1,0 +1,40 @@
+\begin{table}[H]
+\caption{Zero-shot transfer to MLD24 (4{,}800 images, six mango classes, an independent corpus collected in Bangladesh). The same 26 checkpoints span 47~pp of accuracy and 37~pp of macro-F1, and the internal ranking predicts the external one only weakly (Spearman $\rho = 0.41$, $p = 0.037$).\label{tab:external}}
+\begin{adjustwidth}{-\extralength}{0cm}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\fulllength}{@{}r r L c c c c c c c r@{}}
+\toprule
+\textbf{\#} & \textbf{\#$_{\mathrm{int}}$} & \textbf{Model} & \textbf{Accuracy} & \textbf{Macro-F1} & \textbf{F1$_{\mathrm{restr.}}$} & \textbf{Leak (\%)} & \textbf{AUC} & \textbf{ECE} & \textbf{G-mean} & \textbf{$\Delta$acc.\ (pp)} \\
+\midrule
+1 & 1 & \textbf{HMLA-Net (ours)} & \textbf{0.6994\,\tiny$\pm$0.0116} & \textbf{0.6739\,\tiny$\pm$0.0225} & \textbf{0.6758} & \textbf{7.4} & \textbf{0.9204} & \textbf{0.083} & \textbf{0.251} & \textbf{28.9} \\
+2 & 18 & EfficientNet-B3 & 0.6926\,\tiny$\pm$0.0145 & 0.6709\,\tiny$\pm$0.0056 & 0.6767 & 7.7 & 0.9077 & 0.119 & 0.256 & 29.1 \\
+3 & 10 & ViT-S/16 & 0.6863\,\tiny$\pm$0.0261 & 0.6759\,\tiny$\pm$0.0191 & 0.6784 & 12.5 & 0.9083 & 0.051 & 0.121 & 30.0 \\
+4 & 4 & SE-ResNeXt-50 & 0.6735\,\tiny$\pm$0.0228 & 0.6842\,\tiny$\pm$0.0131 & 0.7054 & 16.3 & 0.9251 & 0.033 & 0.246 & 31.4 \\
+5 & 5 & RegNetY-1.6GF & 0.6642\,\tiny$\pm$0.0261 & 0.6670\,\tiny$\pm$0.0123 & 0.6872 & 14.5 & 0.9162 & 0.076 & 0.195 & 32.3 \\
+6 & 2 & Swin-S & 0.6635\,\tiny$\pm$0.0068 & 0.6819\,\tiny$\pm$0.0068 & 0.6969 & 19.4 & 0.9160 & 0.064 & 0.288 & 32.5 \\
+7 & 8 & ViT-B/16 & 0.6598\,\tiny$\pm$0.0436 & 0.6619\,\tiny$\pm$0.0437 & 0.6745 & 11.0 & 0.9022 & 0.130 & 0.482 & 32.7 \\
+8 & 6 & ConvNeXt-S & 0.6432\,\tiny$\pm$0.0482 & 0.6395\,\tiny$\pm$0.0336 & 0.6543 & 14.2 & 0.8984 & 0.141 & 0.008 & 34.4 \\
+9 & 26 & ResNet-101 & 0.6430\,\tiny$\pm$0.0183 & 0.6361\,\tiny$\pm$0.0291 & 0.6427 & 13.4 & 0.9077 & 0.055 & 0.414 & 33.1 \\
+10 & 9 & DenseNet-201 & 0.6322\,\tiny$\pm$0.0625 & 0.6587\,\tiny$\pm$0.0492 & 0.6904 & 20.8 & 0.9180 & 0.099 & 0.008 & 35.4 \\
+11 & 22 & MnasNet-A1 & 0.6288\,\tiny$\pm$0.0363 & 0.6304\,\tiny$\pm$0.0221 & 0.6500 & 11.1 & 0.9080 & 0.154 & 0.389 & 35.3 \\
+12 & 13 & CAFormer-S18\,$^{\dagger}$ & 0.6284\,\tiny$\pm$0.0679 & 0.6548\,\tiny$\pm$0.0429 & 0.6989 & 21.8 & 0.9316 & 0.111 & 0.281 & 35.7 \\
+13 & 20 & ResNeXt-50 & 0.6251\,\tiny$\pm$0.0176 & 0.6175\,\tiny$\pm$0.0126 & 0.6439 & 14.7 & 0.9157 & 0.054 & 0.087 & 35.8 \\
+14 & 15 & ConvNeXt-T & 0.6172\,\tiny$\pm$0.0144 & 0.6247\,\tiny$\pm$0.0123 & 0.6450 & 17.7 & 0.9129 & 0.131 & 0.168 & 36.8 \\
+15 & 25 & ResNet-50 & 0.6124\,\tiny$\pm$0.0131 & 0.6212\,\tiny$\pm$0.0104 & 0.6440 & 17.4 & 0.8985 & 0.108 & 0.195 & 36.4 \\
+16 & 7 & Swin-T & 0.6042\,\tiny$\pm$0.0115 & 0.6520\,\tiny$\pm$0.0117 & 0.6818 & 28.0 & 0.9155 & 0.062 & 0.279 & 38.3 \\
+17 & 23 & GhostNet & 0.5965\,\tiny$\pm$0.0562 & 0.6277\,\tiny$\pm$0.0511 & 0.6735 & 23.1 & 0.9189 & 0.135 & 0.337 & 38.4 \\
+18 & 19 & Xception & 0.5945\,\tiny$\pm$0.0381 & 0.5858\,\tiny$\pm$0.0445 & 0.5960 & 15.6 & 0.9038 & 0.159 & 0.007 & 38.9 \\
+19 & 11 & DenseNet-121 & 0.5656\,\tiny$\pm$0.0320 & 0.6291\,\tiny$\pm$0.0206 & 0.7200 & 33.8 & 0.9205 & 0.118 & 0.320 & 42.1 \\
+20 & 12 & DeiT III-S & 0.5620\,\tiny$\pm$0.0205 & 0.6137\,\tiny$\pm$0.0105 & 0.6759 & 31.6 & 0.9055 & 0.105 & 0.007 & 42.3 \\
+21 & 16 & MobileNetV3-L & 0.5532\,\tiny$\pm$0.0419 & 0.6001\,\tiny$\pm$0.0445 & 0.6411 & 28.7 & 0.8811 & 0.153 & 0.213 & 43.1 \\
+22 & 14 & Inception-v3 & 0.4908\,\tiny$\pm$0.0471 & 0.5339\,\tiny$\pm$0.0384 & 0.5913 & 30.2 & 0.8794 & 0.049 & 0.173 & 49.4 \\
+23 & 24 & MobileNetV2 & 0.4881\,\tiny$\pm$0.0706 & 0.5348\,\tiny$\pm$0.0437 & 0.5953 & 29.8 & 0.8657 & 0.084 & 0.074 & 48.8 \\
+24 & 21 & EfficientNet-B0 & 0.4482\,\tiny$\pm$0.0214 & 0.5311\,\tiny$\pm$0.0182 & 0.6411 & 38.9 & 0.8637 & 0.080 & 0.333 & 53.5 \\
+25 & 3 & VGG-16 & 0.2417\,\tiny$\pm$0.0895 & 0.3422\,\tiny$\pm$0.1012 & 0.5923 & 69.4 & 0.8013 & 0.233 & 0.003 & 74.6 \\
+26 & 17 & VGG-19 & 0.2265\,\tiny$\pm$0.0184 & 0.3152\,\tiny$\pm$0.0364 & 0.6022 & 72.0 & 0.7786 & 0.327 & 0.073 & 75.7 \\
+\bottomrule
+\end{tabularx}
+\end{adjustwidth}
+\noindent{\footnotesize{Zero-shot: the checkpoints of Table~\ref{tab:internal} are applied to MLD24 without any training, fine-tuning or target-domain statistic. Because MLD24 covers 6 of the 21 labels, every macro average here is taken over those six classes and is therefore \emph{not} of the same cardinality as the 21-class macro averages of Table~\ref{tab:internal} (Section~\ref{sec:metrics}). Models are ordered by accuracy; \#$_{\mathrm{int}}$ is the rank of the same model in Table~\ref{tab:internal}. F1$_{\mathrm{restr.}}$ is macro-F1 when the logits are restricted to the six shared classes (protocol P3, a separate experiment); Leak is the share of MLD24 images assigned to one of the 15 labels absent from MLD24. $\Delta$acc.\ is the accuracy lost between the partitions. Because the six classes are equally sized, accuracy, balanced accuracy and macro-recall coincide. G-mean is the geometric mean of the six per-class recalls: one class at zero recall drives it below 0.01 whatever the remaining recalls. The replicate-to-replicate difference of the same configuration on this partition is 3.3~pp of macro-F1 on average (Section~\ref{sec:res-replication}), so the leading group is not internally ordered.}}
+\end{table}

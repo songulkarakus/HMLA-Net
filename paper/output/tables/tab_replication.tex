@@ -1,0 +1,16 @@
+\begin{table}[H]
+\caption{Replicate-to-replicate variation measured by re-executing the whole benchmark.\label{tab:replication}}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\textwidth}{@{}L r c c c c c c c c c@{}}
+\toprule
+\textbf{Partition, metric} & \textbf{$n$} & \textbf{mean $|\Delta|$} & \textbf{s.d.($\Delta$)} & \textbf{max $|\Delta|$} & \textbf{mean $|\bar{\Delta}|$} & \textbf{max $|\bar{\Delta}|$} & \textbf{spread A} & \textbf{spread B} & \textbf{$\rho_{AB}$} & \textbf{max rank move} \\
+\midrule
+internal test, macro-F1 & 78 & 0.34 & 0.42 & 1.06 & 0.19 & 0.72 & 1.68 & 1.72 & 0.69 & 16 \\
+internal test, accuracy & 78 & 0.29 & 0.36 & 0.93 & 0.17 & 0.59 & 1.45 & 1.49 & 0.70 & 14 \\
+zero-shot MLD24, macro-F1 & 78 & 3.29 & 4.76 & 20.32 & 1.91 & 11.42 & 36.90 & 34.67 & 0.91 & 13 \\
+zero-shot MLD24, accuracy & 78 & 4.10 & 5.57 & 19.17 & 2.29 & 10.54 & 47.29 & 44.03 & 0.92 & 11 \\
+\bottomrule
+\end{tabularx}
+\noindent{\footnotesize{Two complete, independent executions of the 26 generic-recipe configurations (25 backbones and the proposed model, three seeds each): replication A produced the original submission, replication B this revision. Same code, recorded hyper-parameters, partitions and hardware; non-deterministic cuDNN kernels and data-loader ordering are the expected sources of the difference. $\Delta$ is A minus B for the same configuration, seed and partition, in percentage points, and s.d.($\Delta$) is the standard deviation of the signed $\Delta$; $\bar{\Delta}$ is A minus B for the three-seed means of a configuration, the quantity on which the tables of this paper compare models; \emph{spread} is the range of the 26 three-seed means; $\rho_{AB}$ is the Spearman correlation between the two orderings; \emph{max rank move} is the largest change of rank of any configuration. HMLA-Net itself was trained three times in replication B (benchmark entry, ablation reference and a dedicated repeat); its nine runs give internal macro-F1 0.9837\,$\pm$\,0.0041 and external macro-F1 0.6601\,$\pm$\,0.0293, with the three-seed means of the replicates at 0.6818, 0.6345, 0.6639 externally.}}
+\end{table}

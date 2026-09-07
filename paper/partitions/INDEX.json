@@ -1,0 +1,52 @@
+{
+  "n_blocks": 3,
+  "fingerprint_definition": "SHA-256 of the UTF-8 text obtained by joining, in file order, one line per image '<relative path>\\t<label index>' with '\\n'; computed separately for train, val and test.",
+  "class_index": "label index refers to the class_names list inside every split file.",
+  "blocks": [
+    {
+      "block_kind": "seed",
+      "block_id": 42,
+      "file": "split_seed42.json",
+      "sizes": {
+        "train": 5025,
+        "val": 1077,
+        "test": 1077
+      },
+      "fingerprints": {
+        "train": "3ceb1118516bfeddb7c797ce48d72e2120cb1a266efc7e565288c65ebffdcf7a",
+        "val": "eccd8dc5cde3d617a7cb2c522cd0c4c6ce1124a296337812b0edf5bf4cd01b5e",
+        "test": "22724366d09d5b1e9ce3090574d92e79ab7bca5d6a007eafd29fad7bc1f826c1"
+      }
+    },
+    {
+      "block_kind": "seed",
+      "block_id": 1234,
+      "file": "split_seed1234.json",
+      "sizes": {
+        "train": 5025,
+        "val": 1077,
+        "test": 1077
+      },
+      "fingerprints": {
+        "train": "1cae73d213dd3844cda4778705c1b8074698afb90ba29b73ccc6de6f223cb723",
+        "val": "f8b0c4b8bc316d7e4585bfb137c404758a9ca8b796737a8fd84a18a5ba8b3241",
+        "test": "0c53899101ab85800ca153cc688100ba55ff6e98f0febd04a26d242ca502591b"
+      }
+    },
+    {
+      "block_kind": "seed",
+      "block_id": 2024,
+      "file": "split_seed2024.json",
+      "sizes": {
+        "train": 5025,
+        "val": 1077,
+        "test": 1077
+      },
+      "fingerprints": {
+        "train": "6469dc991c40a948796c1f1b63181e93ad53747a691fbeabb94b918886234955",
+        "val": "36d83f432d914701a0a0dfaa25bea7288919386b230749fc5df0784469a4bd47",
+        "test": "e76d1c7993eca9ec0db5844ccfa07d53a84eeceb5610fcc05e9e9a13c49b070a"
+      }
+    }
+  ]
+}

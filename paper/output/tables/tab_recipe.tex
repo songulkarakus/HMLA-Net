@@ -1,0 +1,23 @@
+\begin{table}[H]
+\caption{Recipe-matched comparison. Five backbones were retrained with the complete HMLA-Net recipe so that the training and inference recipe is identical between them and the proposed model.\label{tab:recipe}}
+\begin{adjustwidth}{-\extralength}{0cm}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\fulllength}{@{}L c c c c c c c@{}}
+\toprule
+\multirow{2}{*}{\textbf{Backbone}} & \multicolumn{3}{c}{\textbf{Internal test macro-F1}} & \multicolumn{4}{c}{\textbf{Zero-shot MLD24 macro-F1}} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-8}
+ & \textbf{generic} & \textbf{HMLA recipe} & \textbf{$\Delta$ (pp)} & \textbf{generic} & \textbf{HMLA recipe} & \textbf{$\Delta$ (pp)} & \textbf{HMLA-Net $-$ backbone (pp)} \\
+\midrule
+CAFormer-S18\,$^{\dagger}$ & 0.9806\,\tiny$\pm$0.0062 & 0.9839\,\tiny$\pm$0.0018 & +0.33 & 0.6543\,\tiny$\pm$0.0083 & 0.6531\,\tiny$\pm$0.0279 & -0.13 & +2.87 \\
+Swin-S & 0.9846\,\tiny$\pm$0.0028 & 0.9813\,\tiny$\pm$0.0030 & -0.33 & 0.6974\,\tiny$\pm$0.0220 & 0.6848\,\tiny$\pm$0.0028 & -1.25 & -0.30 \\
+SE-ResNeXt-50 & 0.9868\,\tiny$\pm$0.0008 & 0.9838\,\tiny$\pm$0.0046 & -0.30 & 0.6912\,\tiny$\pm$0.0201 & 0.6400\,\tiny$\pm$0.0356 & -5.11 & +4.17 \\
+EfficientNet-B3 & 0.9775\,\tiny$\pm$0.0069 & 0.9795\,\tiny$\pm$0.0046 & +0.20 & 0.6618\,\tiny$\pm$0.0110 & 0.6299\,\tiny$\pm$0.0116 & -3.18 & +5.18 \\
+ViT-S/16 & 0.9819\,\tiny$\pm$0.0043 & 0.9832\,\tiny$\pm$0.0008 & +0.13 & 0.6609\,\tiny$\pm$0.0252 & 0.6264\,\tiny$\pm$0.0291 & -3.46 & +5.54 \\
+\midrule
+\textbf{HMLA-Net (ours)} & -- & 0.9828 & -- & -- & 0.6818 & -- & -- \\
+\bottomrule
+\end{tabularx}
+\end{adjustwidth}
+\noindent{\footnotesize{Replication B, mean (\tiny$\pm$\footnotesize s.d.) over the same three seeds and partitions. \emph{generic} is the common recipe of Section~\ref{sec:baselines}; \emph{HMLA recipe} adds MixUp/CutMix, EMA weights, layer-wise learning-rate decay and $V_4$ flip test-time augmentation, i.e.\ the complete training and inference recipe of the proposed model with its architectural components (MSF, LAP, crop head, MixStyle) switched off. $\Delta$ is HMLA recipe minus generic (positive: the recipe helps). The last column is HMLA-Net minus the backbone under the identical recipe, the controlled comparison of Section~\ref{sec:res-recipe}; against CAFormer-S18 it is +2.87~pp, and with all replication-B runs pooled (HMLA-Net 0.6601 over nine runs, CAFormer-S18 with the HMLA recipe 0.6396 over six) it is +2.05~pp, inside the replicate-to-replicate variation of 3.3~pp. None of the 20 paired comparisons survives Holm correction (three blocks; Section~\ref{sec:stats}).}}
+\end{table}

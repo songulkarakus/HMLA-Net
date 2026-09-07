@@ -1,0 +1,15 @@
+\begin{table}[H]
+\caption{Orbit averaging at inference: what the symmetry group costs and buys.\label{tab:tta}}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\textwidth}{@{}L c c c c c c c c@{}}
+\toprule
+\textbf{Group $G$} & \textbf{$|G|$} & \textbf{Int.\ F1} & \textbf{Ext.\ acc.} & \textbf{Ext.\ F1} & \textbf{ms} & \textbf{img/s} & \textbf{orbit dev.} & \textbf{raw dev.} \\
+\midrule
+trivial group $\{e\}$ (no TTA) & 1 & 0.9887 & 0.6975 & 0.6794 & 9.4 & 106.6 & -- & -- \\
+Klein four-group $V_4$ (flips) & 4 & 0.9865 & 0.7054 & 0.6847 & 36.5 & 27.4 & 6.0e-08 & 0.014 \\
+dihedral group $D_4$ (flips and rotations) & 8 & 0.9869 & 0.7188 & 0.6910 & 93.9 & 10.7 & 1.2e-07 & 0.017 \\
+\bottomrule
+\end{tabularx}
+\noindent{\footnotesize{One checkpoint of HMLA-Net (replication B, seed 1234) evaluated under three inference groups; latency at a batch size of one on the RTX A4000. \emph{orbit dev.} is the largest absolute change of the orbit-averaged posterior when the input is transformed by an element of $G$ (floating-point noise only, i.e.\ exact invariance); \emph{raw dev.} is the same quantity for the single-view network, which is only approximately equivariant after training-time flip augmentation. The differences between the three rows (+0.53 and +1.17~pp of external macro-F1 for $V_4$ and $D_4$ against no TTA) are single-run measurements and lie within the replicate-to-replicate variation of Section~\ref{sec:res-replication}; the latency ratios are measured values for this system and batch size.}}
+\end{table}

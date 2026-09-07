@@ -1,0 +1,384 @@
+test_idx,test_path,train_path,hamming,same_class
+1,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (111).jpg,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (133).jpg,4,True
+14,multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (430).jpg,multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (4).jpg,6,True
+17,multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(324).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(302).png,6,False
+20,multiple leaf dataset/mango leaf/mango die back/mango die back (5).jpg,multiple leaf dataset/mango leaf/mango die back/mango die back (46).jpg,6,True
+21,multiple leaf dataset/mango leaf/mango die back/mango die back (296).jpg,multiple leaf dataset/mango leaf/mango healthy/mango healthy (87).jpg,6,False
+21,multiple leaf dataset/mango leaf/mango die back/mango die back (296).jpg,multiple leaf dataset/mango leaf/mango die back/mango die back (377).jpg,6,True
+23,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(2).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(260).png,6,False
+31,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (260).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (261).jpg,6,True
+35,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (132).jpg,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (133).jpg,4,True
+37,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (114).jpg,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (325).jpg,4,False
+37,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (114).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (191).jpg,6,False
+39,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(82).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(21).png,4,True
+44,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(105).png,multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(36).png,6,False
+56,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (217).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (216).jpg,4,True
+60,multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (122).jpg,multiple leaf dataset/mango leaf/mango healthy/mango healthy (365).jpg,6,False
+65,multiple leaf dataset/mango leaf/mango die back/mango die back (312).jpg,multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (461).jpg,6,False
+68,multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (130).jpg,multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (131).jpg,6,True
+72,multiple leaf dataset/mango leaf/mango sooty mould/mango sooty mould (130).jpg,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(31).png,6,False
+72,multiple leaf dataset/mango leaf/mango sooty mould/mango sooty mould (130).jpg,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(18).png,6,False
+77,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (61).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (62).jpg,4,True
+82,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(95).png,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (169).jpg,6,False
+91,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(218).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(220).png,0,True
+92,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (118).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (120).jpg,6,True
+93,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(27).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(56).png,2,True
+93,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(27).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(16).png,4,True
+93,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(27).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(30).png,6,True
+93,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(27).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(9).png,6,True
+93,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(27).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(54).png,6,False
+93,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(27).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(158).png,6,True
+94,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (200).jpg,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (202).jpg,6,True
+95,multiple leaf dataset/mango leaf/mango healthy/mango healthy (390).jpg,multiple leaf dataset/mango leaf/mango healthy/mango healthy (365).jpg,6,True
+96,multiple leaf dataset/mango leaf/mango die back/mango die back (277).jpg,multiple leaf dataset/mango leaf/mango die back/mango die back (170).jpg,6,True
+100,multiple leaf dataset/mango leaf/mango die back/mango die back (346).jpg,multiple leaf dataset/mango leaf/mango die back/mango die back (283).jpg,6,True
+103,multiple leaf dataset/mango leaf/mango sooty mould/mango sooty mould (176).jpg,multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (51).jpg,6,False
+104,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(52).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(41).png,6,True
+112,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (182).jpg,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (3).jpg,6,False
+114,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (174).jpg,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (175).jpg,2,True
+121,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (86).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (87).jpg,6,True
+126,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (29).jpg,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (28).jpg,4,True
+143,multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_140923.jpg,multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_140934.jpg,4,True
+144,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(114).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(124).png,6,False
+151,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(92).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(59).png,6,True
+158,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (205).jpg,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (204).jpg,4,True
+160,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(253).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(29).png,6,False
+176,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(155).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(46).png,6,True
+176,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(155).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(59).png,6,False
+176,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(155).png,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(92).png,6,False
+179,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (144).jpg,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (143).jpg,6,True
+187,multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (350).jpg,multiple leaf dataset/mango leaf/mango healthy/mango healthy (392).jpg,6,False
+188,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (24).jpg,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (23).jpg,4,True
+188,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (24).jpg,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (25).jpg,4,True
+188,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (24).jpg,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (26).jpg,6,True
+190,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(47).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(61).png,6,True
+190,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(47).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(10).png,6,True
+190,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(47).png,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(48).png,6,False
+190,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(47).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(84).png,6,True
+190,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(47).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(8).png,4,True
+190,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(47).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(67).png,6,True
+190,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(47).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(76).png,6,True
+190,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(47).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(64).png,6,True
+190,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(47).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(43).png,6,True
+194,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (108).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (103).jpg,6,False
+194,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (108).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (196).jpg,6,False
+197,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (280).jpg,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (281).jpg,6,True
+206,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(25).png,multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(36).png,6,False
+206,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(25).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(95).png,6,True
+206,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(25).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(253).png,6,True
+208,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (11).jpg,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (12).jpg,6,True
+214,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (20).jpg,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (19).jpg,6,True
+217,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(251).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(111).png,6,False
+227,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (225).jpg,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (224).jpg,4,True
+229,multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (264).jpg,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(88).png,6,False
+229,multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (264).jpg,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(86).png,6,False
+230,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (35).jpg,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (34).jpg,6,True
+234,multiple leaf dataset/mango leaf/mango healthy/mango healthy (47).jpg,multiple leaf dataset/mango leaf/mango healthy/mango healthy (221).jpg,6,True
+236,multiple leaf dataset/mango leaf/mango healthy/mango healthy (409).jpg,multiple leaf dataset/mango leaf/mango healthy/mango healthy (125).jpg,4,True
+236,multiple leaf dataset/mango leaf/mango healthy/mango healthy (409).jpg,multiple leaf dataset/mango leaf/mango healthy/mango healthy (339).jpg,6,True
+237,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (154).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (155).jpg,6,True
+237,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (154).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (156).jpg,6,True
+240,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(160).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(64).png,0,True
+261,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (39).jpg,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (38).jpg,2,True
+262,multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_143603.jpg,multiple leaf dataset/cashew leaf/cashew healthy/IMG_20251217_143425.jpg,6,False
+265,multiple leaf dataset/mango leaf/mango die back/mango die back (177).jpg,multiple leaf dataset/mango leaf/mango die back/mango die back (439).jpg,6,True
+271,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (78).jpg,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (372).jpg,6,True
+281,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (42).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (41).jpg,6,True
+291,multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (204).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (154).jpg,6,False
+294,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(51).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(71).png,6,False
+301,multiple leaf dataset/mango leaf/mango die back/mango die back (272).jpg,multiple leaf dataset/mango leaf/mango die back/mango die back (174).jpg,6,True
+301,multiple leaf dataset/mango leaf/mango die back/mango die back (272).jpg,multiple leaf dataset/mango leaf/mango die back/mango die back (151).jpg,6,True
+302,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (160).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (161).jpg,4,True
+306,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (22).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (21).jpg,6,True
+311,multiple leaf dataset/mango leaf/mango healthy/mango healthy (82).jpg,multiple leaf dataset/mango leaf/mango healthy/mango healthy (441).jpg,6,True
+318,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (135).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (134).jpg,6,True
+318,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (135).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (137).jpg,4,True
+318,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (135).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (136).jpg,4,True
+330,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(81).png,multiple leaf dataset/mango leaf/mango healthy/mango healthy (305).jpg,6,False
+330,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(81).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(187).png,6,False
+331,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(144).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(204).png,6,False
+344,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(156).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(16).png,6,False
+344,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(156).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(167).png,6,False
+347,multiple leaf dataset/mango leaf/mango healthy/mango healthy (438).jpg,multiple leaf dataset/mango leaf/mango healthy/mango healthy (439).jpg,4,True
+348,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(158).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(30).png,6,False
+348,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(158).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(54).png,0,True
+348,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(158).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(158).png,6,False
+350,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (71).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (70).jpg,4,True
+354,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (206).jpg,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (205).jpg,4,True
+356,multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (322).jpg,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(74).png,6,False
+356,multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (322).jpg,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(99).png,6,False
+357,multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(9).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(117).png,4,False
+357,multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(9).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(119).png,4,False
+357,multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(9).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(239).png,6,False
+357,multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(9).png,multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(36).png,6,True
+357,multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(9).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(95).png,4,False
+357,multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(9).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(253).png,6,False
+365,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (278).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (279).jpg,6,True
+377,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (168).jpg,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (167).jpg,4,True
+383,multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (300).jpg,multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (299).jpg,6,True
+383,multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (300).jpg,multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (301).jpg,6,True
+387,multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(139).png,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(141).png,6,False
+389,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(119).png,multiple leaf dataset/cashew leaf/cashew healthy/IMG_20251217_142409.jpg,6,False
+389,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(119).png,multiple leaf dataset/cashew leaf/cashew healthy/20251217_141348.jpg,6,False
+402,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(93).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(37).png,6,True
+402,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(93).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(16).png,6,False
+402,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(93).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(167).png,0,True
+402,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(93).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(168).png,2,True
+402,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(93).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(163).png,6,True
+402,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(93).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(178).png,4,True
+402,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(93).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(169).png,6,True
+404,multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(94).png,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(49).png,4,False
+404,multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(94).png,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(53).png,6,False
+412,multiple leaf dataset/mango leaf/mango healthy/mango healthy (443).jpg,multiple leaf dataset/mango leaf/mango healthy/mango healthy (261).jpg,6,True
+424,multiple leaf dataset/mango leaf/mango die back/mango die back (163).jpg,multiple leaf dataset/mango leaf/mango die back/mango die back (431).jpg,4,True
+424,multiple leaf dataset/mango leaf/mango die back/mango die back (163).jpg,multiple leaf dataset/mango leaf/mango die back/mango die back (156).jpg,6,True
+431,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (222).jpg,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (221).jpg,6,True
+435,multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(277).png,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(291).png,6,False
+438,multiple leaf dataset/cashew leaf/cashew healthy/20251217_144559.jpg,multiple leaf dataset/cashew leaf/cashew healthy/20251217_144609.jpg,6,True
+441,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (297).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (298).jpg,6,True
+444,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(92).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(182).png,6,False
+444,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(92).png,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(206).png,6,False
+449,multiple leaf dataset/mango leaf/mango healthy/mango healthy (246).jpg,multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (398).jpg,6,False
+449,multiple leaf dataset/mango leaf/mango healthy/mango healthy (246).jpg,multiple leaf dataset/mango leaf/mango healthy/mango healthy (69).jpg,6,True
+449,multiple leaf dataset/mango leaf/mango healthy/mango healthy (246).jpg,multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (234).jpg,6,False
+450,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (27).jpg,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (28).jpg,2,True
+454,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(316).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(312).png,6,True
+456,multiple leaf dataset/mango leaf/mango healthy/mango healthy (368).jpg,multiple leaf dataset/mango leaf/mango healthy/mango healthy (77).jpg,4,True
+464,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (219).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (218).jpg,4,True
+466,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(57).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(51).png,6,True
+466,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(57).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(90).png,4,True
+466,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(57).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(152).png,6,True
+466,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(57).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(77).png,6,True
+466,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(57).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(155).png,6,True
+468,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (36).jpg,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (34).jpg,6,True
+469,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (100).jpg,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (101).jpg,6,True
+471,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (207).jpg,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (206).jpg,6,True
+475,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (89).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (88).jpg,4,True
+481,multiple leaf dataset/mango leaf/mango healthy/mango healthy (481).jpg,multiple leaf dataset/mango leaf/mango healthy/mango healthy (119).jpg,6,True
+484,multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (472).jpg,multiple leaf dataset/mango leaf/mango die back/mango die back (448).jpg,6,False
+484,multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (472).jpg,multiple leaf dataset/mango leaf/mango die back/mango die back (135).jpg,6,False
+488,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (124).jpg,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (125).jpg,6,True
+491,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (129).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (128).jpg,6,True
+494,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(62).png,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(65).png,6,True
+494,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(62).png,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(56).png,4,True
+494,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(62).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(14).png,6,False
+494,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(62).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(9).png,6,False
+498,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(168).png,multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(176).png,6,False
+498,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(168).png,multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(194).png,6,False
+501,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(88).png,multiple leaf dataset/cashew leaf/cashew healthy/20251217_142010.jpg,6,False
+501,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(88).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(95).png,6,False
+504,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (85).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (83).jpg,6,True
+505,multiple leaf dataset/mango leaf/mango healthy/mango healthy (19).jpg,multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (22).jpg,6,False
+511,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(59).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(112).png,6,True
+511,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(59).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(8).png,6,True
+512,multiple leaf dataset/tomato leaf/tomato healthy/tomato healthy (263).jpg,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (222).jpg,6,False
+515,multiple leaf dataset/mango leaf/mango die back/mango die back (71).jpg,multiple leaf dataset/mango leaf/mango die back/mango die back (99).jpg,4,True
+520,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (171).jpg,multiple leaf dataset/cashew leaf/cashew healthy/IMG_20251217_143226.jpg,2,False
+520,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (171).jpg,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (128).jpg,6,True
+524,multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_143019.jpg,multiple leaf dataset/cashew leaf/cashew healthy/20251217_142900.jpg,6,False
+527,multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (1).jpg,multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (3).jpg,6,True
+530,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (10).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (11).jpg,4,True
+533,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(80).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(94).png,6,True
+536,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (194).jpg,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (195).jpg,6,True
+538,multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_141833.jpg,multiple leaf dataset/cashew leaf/cashew healthy/IMG_20251217_141948.jpg,6,False
+553,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (25).jpg,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (121).jpg,6,False
+553,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (25).jpg,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (26).jpg,2,True
+553,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (25).jpg,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (24).jpg,6,True
+554,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (210).jpg,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (375).jpg,6,False
+554,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (210).jpg,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (141).jpg,6,False
+565,multiple leaf dataset/mango leaf/mango die back/mango die back (452).jpg,multiple leaf dataset/mango leaf/mango die back/mango die back (302).jpg,6,True
+565,multiple leaf dataset/mango leaf/mango die back/mango die back (452).jpg,multiple leaf dataset/mango leaf/mango die back/mango die back (307).jpg,6,True
+566,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (223).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (222).jpg,4,True
+577,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (44).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (45).jpg,4,True
+578,multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_141336.jpg,multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_141015.jpg,6,True
+578,multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_141336.jpg,multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_141109.jpg,6,True
+580,multiple leaf dataset/cashew leaf/cashew healthy/20251217_143259.jpg,multiple leaf dataset/cashew leaf/cashew healthy/20251217_144913.jpg,6,True
+589,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(295).png,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(294).png,6,True
+590,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (13).jpg,multiple leaf dataset/tomato leaf/tomato healthy/tomato healthy (259).jpg,6,False
+601,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(6).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(73).png,6,True
+601,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(6).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(6).png,6,False
+601,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(6).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(39).png,6,False
+601,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(6).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(92).png,6,True
+603,multiple leaf dataset/mango leaf/mango healthy/mango healthy (480).jpg,multiple leaf dataset/mango leaf/mango die back/mango die back (127).jpg,6,False
+603,multiple leaf dataset/mango leaf/mango healthy/mango healthy (480).jpg,multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (13).jpg,6,False
+603,multiple leaf dataset/mango leaf/mango healthy/mango healthy (480).jpg,multiple leaf dataset/mango leaf/mango healthy/mango healthy (404).jpg,6,True
+610,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(33).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(13).png,2,True
+610,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(33).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(35).png,4,True
+610,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(33).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(34).png,4,True
+610,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(33).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(11).png,4,True
+610,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(33).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(68).png,4,True
+610,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(33).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(30).png,6,True
+610,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(33).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(42).png,6,True
+610,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(33).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(80).png,4,True
+610,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(33).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(71).png,6,True
+610,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(33).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(7).png,6,True
+610,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(33).png,multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(189).png,4,False
+610,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(33).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(75).png,4,True
+610,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(33).png,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(46).png,4,False
+610,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(33).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(158).png,4,True
+610,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(33).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(37).png,6,True
+612,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (236).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (237).jpg,6,True
+623,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(161).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(69).png,0,True
+626,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(159).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(13).png,6,False
+631,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (277).jpg,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(234).png,6,False
+633,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (169).jpg,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (170).jpg,6,True
+634,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(175).png,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(197).png,6,False
+634,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(175).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(6).png,6,True
+635,multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (459).jpg,multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (460).jpg,4,True
+637,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (53).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (54).jpg,6,True
+638,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(14).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(24).png,6,True
+638,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(14).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(244).png,6,True
+638,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(14).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(50).png,4,True
+651,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(31).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(57).png,6,True
+654,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(79).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(72).png,6,True
+654,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(79).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(67).png,4,True
+654,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(79).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(76).png,2,True
+657,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(245).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(205).png,6,False
+661,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(29).png,multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_141739.jpg,6,False
+670,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(186).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(191).png,6,True
+672,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(156).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(44).png,2,True
+673,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (231).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (232).jpg,6,True
+676,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(271).png,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(187).png,6,True
+678,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(177).png,multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (334).jpg,6,False
+682,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (39).jpg,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (38).jpg,2,True
+682,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (39).jpg,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(128).png,6,False
+684,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(98).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(180).png,0,True
+690,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (277).jpg,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (276).jpg,6,True
+693,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (55).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (52).jpg,2,True
+693,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (55).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (53).jpg,4,True
+693,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (55).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (57).jpg,4,True
+693,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (55).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (54).jpg,4,True
+694,multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_141702.jpg,multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_141656.jpg,6,True
+697,multiple leaf dataset/cashew leaf/cashew healthy/20251217_142232.jpg,multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_141401 - Copy.jpg,6,False
+697,multiple leaf dataset/cashew leaf/cashew healthy/20251217_142232.jpg,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(236).png,6,False
+699,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(113).png,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(234).png,6,True
+702,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (32).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (31).jpg,6,True
+703,multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (341).jpg,multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (340).jpg,2,True
+703,multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (341).jpg,multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (339).jpg,2,True
+704,multiple leaf dataset/tomato leaf/tomato healthy/tomato healthy (255).jpg,multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(249).png,6,False
+705,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (250).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (249).jpg,6,True
+710,multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_142855 - Copy.jpg,multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_142553.jpg,6,True
+711,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(63).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(11).png,6,True
+716,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (69).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (68).jpg,4,True
+717,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (43).jpg,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (18).jpg,6,True
+718,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(264).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(290).png,6,True
+721,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (323).jpg,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (324).jpg,4,True
+721,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (323).jpg,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (322).jpg,6,True
+722,multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_141507 - Copy.jpg,multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_143541.jpg,6,True
+729,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (234).jpg,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (213).jpg,4,True
+737,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (135).jpg,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (134).jpg,4,True
+742,multiple leaf dataset/cashew leaf/cashew healthy/20251217_144627.jpg,multiple leaf dataset/cashew leaf/cashew healthy/20251217_144810.jpg,6,True
+747,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(322).png,multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_143525.jpg,4,False
+747,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(322).png,multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(36).png,6,False
+748,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (143).jpg,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (145).jpg,0,True
+748,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (143).jpg,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (142).jpg,2,True
+748,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (143).jpg,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (141).jpg,4,True
+748,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (143).jpg,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (144).jpg,2,True
+750,multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (347).jpg,multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (345).jpg,6,True
+755,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (222).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (194).jpg,6,False
+759,multiple leaf dataset/mango leaf/mango die back/mango die back (424).jpg,multiple leaf dataset/mango leaf/mango die back/mango die back (187).jpg,6,True
+760,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (142).jpg,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (374).jpg,2,False
+760,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (142).jpg,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (88).jpg,6,False
+760,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (142).jpg,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (211).jpg,6,False
+766,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(298).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(195).png,6,True
+773,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(160).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(163).png,6,True
+778,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (160).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (162).jpg,6,True
+787,multiple leaf dataset/mango leaf/mango die back/mango die back (172).jpg,multiple leaf dataset/mango leaf/mango die back/mango die back (283).jpg,4,True
+795,multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_142708.jpg,multiple leaf dataset/cashew leaf/cashew healthy/20251217_142702.jpg,6,False
+795,multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_142708.jpg,multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_142651.jpg,6,True
+797,multiple leaf dataset/tomato leaf/tomato healthy/tomato healthy (251).jpg,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (30).jpg,6,False
+799,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (234).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (233).jpg,4,True
+804,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(49).png,multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(211).png,6,False
+810,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(270).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(204).png,6,False
+810,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(270).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(253).png,6,False
+812,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(30).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(60).png,6,True
+813,multiple leaf dataset/mango leaf/mango healthy/mango healthy (183).jpg,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(13).png,4,False
+813,multiple leaf dataset/mango leaf/mango healthy/mango healthy (183).jpg,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(35).png,6,False
+813,multiple leaf dataset/mango leaf/mango healthy/mango healthy (183).jpg,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(11).png,2,False
+813,multiple leaf dataset/mango leaf/mango healthy/mango healthy (183).jpg,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(68).png,4,False
+813,multiple leaf dataset/mango leaf/mango healthy/mango healthy (183).jpg,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(212).png,6,False
+813,multiple leaf dataset/mango leaf/mango healthy/mango healthy (183).jpg,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(60).png,6,False
+813,multiple leaf dataset/mango leaf/mango healthy/mango healthy (183).jpg,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(30).png,4,False
+813,multiple leaf dataset/mango leaf/mango healthy/mango healthy (183).jpg,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(9).png,6,False
+813,multiple leaf dataset/mango leaf/mango healthy/mango healthy (183).jpg,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(80).png,4,False
+813,multiple leaf dataset/mango leaf/mango healthy/mango healthy (183).jpg,multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(189).png,4,False
+813,multiple leaf dataset/mango leaf/mango healthy/mango healthy (183).jpg,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(75).png,6,False
+813,multiple leaf dataset/mango leaf/mango healthy/mango healthy (183).jpg,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(46).png,6,False
+813,multiple leaf dataset/mango leaf/mango healthy/mango healthy (183).jpg,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(158).png,6,False
+818,multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (219).jpg,multiple leaf dataset/mango leaf/mango die back/mango die back (415).jpg,4,False
+824,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (69).jpg,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (22).jpg,6,True
+827,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(11).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(9).png,0,True
+827,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(11).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(29).png,4,True
+833,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (4).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (5).jpg,6,True
+836,multiple leaf dataset/mango leaf/mango healthy/mango healthy (350).jpg,multiple leaf dataset/mango leaf/mango die back/mango die back (284).jpg,6,False
+839,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (152).jpg,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (153).jpg,6,True
+844,multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_141245.jpg,multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_141058.jpg,6,True
+853,multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (413).jpg,multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (325).jpg,6,True
+855,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (12).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (13).jpg,6,True
+858,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (210).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (326).jpg,6,False
+864,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (155).jpg,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (156).jpg,6,True
+869,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (250).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (249).jpg,4,True
+875,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (372).jpg,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (388).jpg,2,True
+883,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (91).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (92).jpg,6,True
+884,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (109).jpg,multiple leaf dataset/tomato leaf/tomato healthy/tomato healthy (219).jpg,6,False
+885,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (173).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (172).jpg,6,True
+890,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(45).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(182).png,6,False
+892,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (47).jpg,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (48).jpg,6,True
+898,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (157).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (158).jpg,4,True
+900,multiple leaf dataset/mango leaf/mango die back/mango die back (365).jpg,multiple leaf dataset/mango leaf/mango die back/mango die back (341).jpg,6,True
+901,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (107).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (108).jpg,6,True
+901,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (107).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (106).jpg,4,True
+911,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(139).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(50).png,2,True
+913,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (218).jpg,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (219).jpg,2,True
+913,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (218).jpg,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (220).jpg,4,True
+916,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (17).jpg,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (18).jpg,6,True
+919,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(307).png,multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (39).jpg,6,False
+919,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(307).png,multiple leaf dataset/mango leaf/mango healthy/mango healthy (439).jpg,6,False
+920,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (363).jpg,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (364).jpg,0,True
+920,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (363).jpg,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (365).jpg,4,True
+923,multiple leaf dataset/cashew leaf/cashew healthy/IMG_20251217_142020.jpg,multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(47).png,6,False
+925,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(110).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(41).png,6,True
+925,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(110).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(12).png,4,True
+938,multiple leaf dataset/cashew leaf/cashew healthy/IMG_20251217_141302.jpg,multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_141249.jpg,6,False
+954,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (161).jpg,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (40).jpg,6,False
+955,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(215).png,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(138).png,6,False
+955,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(215).png,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(230).png,6,False
+955,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(215).png,multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_142908.jpg,6,False
+957,multiple leaf dataset/tomato leaf/tomato healthy/tomato healthy (205).jpg,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (134).jpg,6,False
+972,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (325).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (301).jpg,6,True
+995,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(196).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(210).png,0,True
+996,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (160).jpg,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (200).jpg,6,True
+997,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (308).jpg,multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (306).jpg,6,True
+1010,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(58).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(216).png,6,False
+1010,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(58).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(91).png,6,True
+1010,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(58).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(28).png,6,True
+1010,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(58).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(287).png,6,False
+1010,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(58).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(52).png,4,True
+1013,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(129).png,multiple leaf dataset/tomato leaf/tomato leaf mold/tomato leaf mold (38).jpg,6,False
+1013,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(129).png,multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(128).png,0,True
+1016,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (42).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (40).jpg,2,True
+1016,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (42).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (41).jpg,2,True
+1019,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(75).png,multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(196).png,4,False
+1019,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(75).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(95).png,6,True
+1019,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(75).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(40).png,6,True
+1019,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(75).png,multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_142908.jpg,6,False
+1022,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (35).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (37).jpg,2,True
+1022,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (35).jpg,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (12).jpg,6,False
+1022,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (35).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (36).jpg,2,True
+1026,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(309).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(1).png,6,False
+1030,multiple leaf dataset/tomato leaf/tomato healthy/tomato healthy (268).jpg,multiple leaf dataset/tomato leaf/tomato healthy/tomato healthy (285).jpg,6,True
+1032,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (261).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (260).jpg,6,True
+1034,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (173).jpg,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (175).jpg,6,True
+1035,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(122).png,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(149).png,6,True
+1039,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (229).jpg,multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (230).jpg,2,True
+1041,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(116).png,multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(97).png,6,True
+1051,multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_143221.jpg,multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_143204.jpg,4,True
+1052,multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_143137.jpg,multiple leaf dataset/cashew leaf/cashew healthy/IMG_20251217_142825.jpg,6,False
+1064,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (366).jpg,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (298).jpg,6,True
+1064,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (366).jpg,multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (365).jpg,6,True
+1066,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (79).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (80).jpg,6,True
+1071,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (3).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (2).jpg,4,True
+1071,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (3).jpg,multiple leaf dataset/tomato leaf/tomato bacterial spot/tomato bacterial spot (236).jpg,6,False
+1071,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (3).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (1).jpg,6,True
+1071,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (3).jpg,multiple leaf dataset/tomato leaf/tomato blight/tomato blight (290).jpg,6,True
+1072,multiple leaf dataset/cashew leaf/cashew healthy/IMG_20251217_142250.jpg,multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(143).png,6,False

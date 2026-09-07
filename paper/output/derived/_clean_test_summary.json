@@ -1,0 +1,51 @@
+{
+  "threshold": 6,
+  "corpus_pairs_recomputed": 1781,
+  "corpus_cross_class_pairs_recomputed": 583,
+  "test_train_pairs_by_seed": {
+    "42": 343,
+    "1234": 383,
+    "2024": 302
+  },
+  "flagged_test_images_by_seed": {
+    "42": 207,
+    "1234": 240,
+    "2024": 186
+  },
+  "flagged_test_pct_mean": 19.6,
+  "flagged_same_class_by_seed": {
+    "42": 151,
+    "1234": 175,
+    "2024": 139
+  },
+  "n_clean_by_seed": {
+    "42": 870,
+    "1234": 837,
+    "2024": 891
+  },
+  "n_runs": 150,
+  "n_configs_main": 31,
+  "mean_d_f1_pp_all31": 0.201,
+  "min_d_f1_pp": 0.03,
+  "max_d_f1_pp": 0.369,
+  "mean_d_acc_pp_all31": 0.148,
+  "n_configs_f1_drops": 0,
+  "n_configs_f1_rises": 31,
+  "spread_full_pp": 1.72,
+  "spread_clean_pp": 1.79,
+  "spearman_full_clean_31": 0.974,
+  "spearman_full_clean_26": 0.979,
+  "best_clean_model": "legacy_seresnext50_32x4d",
+  "best_clean_f1": 0.9905,
+  "proposed_f1_full": 0.9828,
+  "proposed_f1_clean": 0.9858,
+  "proposed_acc_full": 0.987,
+  "proposed_acc_clean": 0.9893,
+  "proposed_rank_full": 11,
+  "proposed_rank_clean": 9,
+  "proposed_d_f1_pp": 0.29,
+  "acc_flagged_mean_all": 0.9796,
+  "acc_clean_mean_all": 0.9863,
+  "max_rank_move": 5,
+  "n_rank_move_ge3": 6
+}
