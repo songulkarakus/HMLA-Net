@@ -1,0 +1,10 @@
+{
+  "tag": "ablation/wo_label_smoothing/seed42",
+  "model": "caformer_s18.sail_in22k_ft_in1k",
+  "seed": 42,
+  "started_at": "2026-08-05T16:24:49",
+  "ended_at": "2026-08-05T16:39:30",
+  "run_duration_sec": 881.0,
+  "train_sec_cumulative": 806.0,
+  "n_epochs": 25
+}

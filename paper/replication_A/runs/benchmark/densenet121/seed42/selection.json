@@ -1,0 +1,9 @@
+{
+  "epoch": 10,
+  "score": 0.9840801528868194,
+  "val_acc": 0.9860724233983287,
+  "select_metric": "f1_macro",
+  "source": "raw",
+  "hier_beta": null,
+  "hier_beta_scores": null
+}

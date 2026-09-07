@@ -1,0 +1,71 @@
+{
+  "run_dir": "revision_results\\proposed\\Proposed_HMLA_CAFormerS18\\seed1234",
+  "group_sizes": {
+    "none": 1,
+    "klein": 4,
+    "dihedral8": 8
+  },
+  "invariance_proof": [
+    {
+      "group": "klein",
+      "n_views": 4,
+      "orbit_mean_max_abs_deviation": 5.960464477539063e-08,
+      "raw_model_max_abs_deviation": 0.014440953731536865,
+      "invariant_within_1e-4": true,
+      "dev_e": 0.0,
+      "dev_h": 5.960464477539063e-08,
+      "dev_v": 5.960464477539063e-08,
+      "dev_hv": 5.960464477539063e-08
+    },
+    {
+      "group": "dihedral8",
+      "n_views": 8,
+      "orbit_mean_max_abs_deviation": 1.1920928955078125e-07,
+      "raw_model_max_abs_deviation": 0.017155766487121582,
+      "invariant_within_1e-4": true,
+      "dev_e": 0.0,
+      "dev_h": 5.960464477539063e-08,
+      "dev_v": 5.960464477539063e-08,
+      "dev_hv": 5.960464477539063e-08,
+      "dev_t": 1.1920928955078125e-07,
+      "dev_th": 1.1920928955078125e-07,
+      "dev_tv": 1.1920928955078125e-07,
+      "dev_thv": 1.1920928955078125e-07
+    }
+  ],
+  "performance": [
+    {
+      "group": "none",
+      "n_views": 1,
+      "internal_accuracy": 0.9916434540389972,
+      "internal_f1_macro": 0.9887323660321372,
+      "internal_eval_sec": 2.1,
+      "external_accuracy": 0.6975,
+      "external_f1_macro": 0.6793725284988716,
+      "latency_ms": 9.382,
+      "fps": 106.6
+    },
+    {
+      "group": "klein",
+      "n_views": 4,
+      "internal_accuracy": 0.989786443825441,
+      "internal_f1_macro": 0.9865157954700685,
+      "internal_eval_sec": 13.0,
+      "external_accuracy": 0.7054166666666667,
+      "external_f1_macro": 0.6846805767012194,
+      "latency_ms": 36.46,
+      "fps": 27.4
+    },
+    {
+      "group": "dihedral8",
+      "n_views": 8,
+      "internal_accuracy": 0.989786443825441,
+      "internal_f1_macro": 0.9868678250267761,
+      "internal_eval_sec": 20.9,
+      "external_accuracy": 0.71875,
+      "external_f1_macro": 0.6910488194315629,
+      "latency_ms": 93.886,
+      "fps": 10.7
+    }
+  ]
+}

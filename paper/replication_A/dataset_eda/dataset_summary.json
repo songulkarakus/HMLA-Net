@@ -1,0 +1,19 @@
+{
+  "n_classes": 21,
+  "n_plants": 4,
+  "n_images_dedup": 7179,
+  "n_images_raw": 7255,
+  "n_duplicates_removed": 76,
+  "images_per_plant": {
+    "cashew": 480,
+    "jackfruit": 1814,
+    "mango": 2688,
+    "tomato": 2197
+  },
+  "min_class": 209,
+  "max_class": 500,
+  "imbalance_ratio": 2.39,
+  "common_dimensions": {
+    "480x360": 1050
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "tag": "benchmark/resnet50/seed2024",
+  "model": "resnet50",
+  "seed": 2024,
+  "started_at": "2026-08-05T08:57:02",
+  "ended_at": "2026-08-05T09:05:01",
+  "run_duration_sec": 478.7,
+  "train_sec_cumulative": 435.5,
+  "n_epochs": 32
+}

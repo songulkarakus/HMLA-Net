@@ -1,0 +1,10 @@
+{
+  "tag": "benchmark/caformer_s18.sail_in22k_ft_in1k/seed42",
+  "model": "caformer_s18.sail_in22k_ft_in1k",
+  "seed": 42,
+  "started_at": "2026-08-05T04:50:12",
+  "ended_at": "2026-08-05T04:57:51",
+  "run_duration_sec": 458.7,
+  "train_sec_cumulative": 421.5,
+  "n_epochs": 16
+}

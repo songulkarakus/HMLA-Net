@@ -1,0 +1,44 @@
+{
+  "best_baseline": "swin_small_patch4_window7_224",
+  "per_seed": [
+    {
+      "seed": 42,
+      "n01": 5,
+      "n10": 3,
+      "statistic": NaN,
+      "p_value": 0.7265625,
+      "test": "exact_binomial",
+      "proposed_acc_ci95": [
+        0.9879294336118849,
+        0.9805013927576601,
+        0.9944289693593314
+      ]
+    },
+    {
+      "seed": 1234,
+      "n01": 3,
+      "n10": 8,
+      "statistic": NaN,
+      "p_value": 0.2265625,
+      "test": "exact_binomial",
+      "proposed_acc_ci95": [
+        0.9870009285051068,
+        0.9795728876508821,
+        0.9935004642525533
+      ]
+    },
+    {
+      "seed": 2024,
+      "n01": 4,
+      "n10": 1,
+      "statistic": NaN,
+      "p_value": 0.375,
+      "test": "exact_binomial",
+      "proposed_acc_ci95": [
+        0.989786443825441,
+        0.9832869080779945,
+        0.9953574744661096
+      ]
+    }
+  ]
+}

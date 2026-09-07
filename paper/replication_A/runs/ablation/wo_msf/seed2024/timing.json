@@ -1,0 +1,10 @@
+{
+  "tag": "ablation/wo_msf/seed2024",
+  "model": "caformer_s18.sail_in22k_ft_in1k",
+  "seed": 2024,
+  "started_at": "2026-08-05T21:58:21",
+  "ended_at": "2026-08-05T22:14:33",
+  "run_duration_sec": 971.6,
+  "train_sec_cumulative": 895.8,
+  "n_epochs": 28
+}

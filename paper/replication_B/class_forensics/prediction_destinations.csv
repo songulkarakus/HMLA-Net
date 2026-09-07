@@ -1,0 +1,417 @@
+model,predicted_class,n,share
+Proposed_HMLA_CAFormerS18,mango powdery mildew,519.6666666666666,0.6495833333333333
+Proposed_HMLA_CAFormerS18,mango gall midge,164.66666666666666,0.2058333333333333
+Proposed_HMLA_CAFormerS18,jackfruit sooty mold,34.0,0.0425
+Proposed_HMLA_CAFormerS18,cashew fungal infection,21.0,0.02625
+Proposed_HMLA_CAFormerS18,jackfruit phyllosticta,17.0,0.021249999999999998
+Proposed_HMLA_CAFormerS18,mango anthracnose,14.666666666666666,0.018333333333333333
+Proposed_HMLA_CAFormerS18,tomato insect damage,12.666666666666666,0.015833333333333335
+Proposed_HMLA_CAFormerS18,mango sooty mould,12.0,0.015
+Proposed_HMLA_CAFormerS18,mango healthy,9.0,0.011250000000000001
+Proposed_HMLA_CAFormerS18,jackfruit anthracnose,5.0,0.00625
+Proposed_HMLA_CAFormerS18,jackfruit leaf spot,4.0,0.005
+Proposed_HMLA_CAFormerS18,jackfruit algal,2.3333333333333335,0.002916666666666667
+Proposed_HMLA_CAFormerS18,cashew healthy,1.0,0.00125
+Proposed_HMLA_CAFormerS18,tomato bacterial spot,1.0,0.00125
+caformer_s18-sail_in22k_ft_in1k,mango powdery mildew,455.5,0.569375
+caformer_s18-sail_in22k_ft_in1k,cashew fungal infection,167.66666666666666,0.20958333333333334
+caformer_s18-sail_in22k_ft_in1k,jackfruit sooty mold,89.4,0.11174999999999999
+caformer_s18-sail_in22k_ft_in1k,mango gall midge,52.166666666666664,0.06520833333333333
+caformer_s18-sail_in22k_ft_in1k,jackfruit phyllosticta,17.833333333333332,0.022291666666666668
+caformer_s18-sail_in22k_ft_in1k,tomato insect damage,15.0,0.018750000000000003
+caformer_s18-sail_in22k_ft_in1k,jackfruit algal,9.333333333333334,0.011666666666666667
+caformer_s18-sail_in22k_ft_in1k,jackfruit anthracnose,6.25,0.0078125
+caformer_s18-sail_in22k_ft_in1k,mango healthy,4.833333333333333,0.006041666666666667
+caformer_s18-sail_in22k_ft_in1k,tomato leaf mold,4.0,0.005
+caformer_s18-sail_in22k_ft_in1k,tomato blight,3.6,0.0045
+caformer_s18-sail_in22k_ft_in1k,mango anthracnose,3.0,0.00375
+caformer_s18-sail_in22k_ft_in1k,tomato bacterial spot,3.0,0.00375
+caformer_s18-sail_in22k_ft_in1k,tomato healthy,3.0,0.00375
+caformer_s18-sail_in22k_ft_in1k,cashew healthy,2.25,0.0028125
+caformer_s18-sail_in22k_ft_in1k,jackfruit leaf spot,2.0,0.0025
+caformer_s18-sail_in22k_ft_in1k,mango sooty mould,1.5,0.001875
+caformer_s18-sail_in22k_ft_in1k,jackfruit healthy,1.0,0.00125
+convnext_small,mango powdery mildew,387.0,0.48374999999999996
+convnext_small,mango gall midge,154.0,0.1925
+convnext_small,cashew fungal infection,84.66666666666667,0.10583333333333333
+convnext_small,jackfruit sooty mold,67.33333333333333,0.08416666666666667
+convnext_small,tomato insect damage,28.0,0.034999999999999996
+convnext_small,tomato leaf mold,27.0,0.03375
+convnext_small,jackfruit phyllosticta,26.0,0.0325
+convnext_small,tomato blight,22.666666666666668,0.028333333333333332
+convnext_small,mango healthy,20.0,0.025000000000000005
+convnext_small,cashew healthy,7.0,0.00875
+convnext_small,jackfruit healthy,4.0,0.005
+convnext_small,tomato spider mites,4.0,0.005
+convnext_small,jackfruit algal,3.0,0.00375
+convnext_small,mango anthracnose,3.0,0.00375
+convnext_small,jackfruit anthracnose,1.6666666666666667,0.0020833333333333333
+convnext_small,jackfruit leaf spot,1.0,0.00125
+convnext_small,mango sooty mould,1.0,0.00125
+convnext_tiny,mango powdery mildew,420.6666666666667,0.5258333333333333
+convnext_tiny,cashew fungal infection,169.33333333333334,0.21166666666666667
+convnext_tiny,mango gall midge,76.66666666666667,0.09583333333333333
+convnext_tiny,mango healthy,40.0,0.049999999999999996
+convnext_tiny,tomato insect damage,29.666666666666668,0.037083333333333336
+convnext_tiny,jackfruit sooty mold,29.333333333333332,0.03666666666666666
+convnext_tiny,tomato blight,14.666666666666666,0.018333333333333333
+convnext_tiny,jackfruit anthracnose,8.666666666666666,0.010833333333333334
+convnext_tiny,cashew healthy,7.0,0.00875
+convnext_tiny,jackfruit phyllosticta,6.5,0.008125
+convnext_tiny,mango anthracnose,2.0,0.0025
+convnext_tiny,mango sooty mould,2.0,0.0025
+convnext_tiny,jackfruit leaf spot,1.0,0.00125
+convnext_tiny,tomato leaf mold,1.0,0.00125
+deit3_small_patch16_224,mango powdery mildew,263.0,0.32875
+deit3_small_patch16_224,jackfruit sooty mold,231.66666666666666,0.2895833333333333
+deit3_small_patch16_224,cashew fungal infection,122.0,0.1525
+deit3_small_patch16_224,jackfruit phyllosticta,41.666666666666664,0.052083333333333336
+deit3_small_patch16_224,mango gall midge,39.0,0.048749999999999995
+deit3_small_patch16_224,tomato insect damage,31.333333333333332,0.03916666666666667
+deit3_small_patch16_224,jackfruit anthracnose,23.0,0.028749999999999998
+deit3_small_patch16_224,tomato blight,20.333333333333332,0.025416666666666667
+deit3_small_patch16_224,tomato spider mites,18.0,0.0225
+deit3_small_patch16_224,jackfruit algal,13.5,0.016875
+deit3_small_patch16_224,cashew healthy,7.666666666666667,0.009583333333333333
+deit3_small_patch16_224,jackfruit leaf spot,7.0,0.00875
+deit3_small_patch16_224,mango sooty mould,3.0,0.00375
+deit3_small_patch16_224,jackfruit healthy,1.0,0.00125
+deit3_small_patch16_224,tomato bacterial spot,1.0,0.00125
+deit3_small_patch16_224,tomato leaf mold,1.0,0.00125
+densenet121,jackfruit sooty mold,216.66666666666666,0.2708333333333333
+densenet121,cashew fungal infection,213.33333333333334,0.26666666666666666
+densenet121,mango powdery mildew,169.33333333333334,0.21166666666666667
+densenet121,jackfruit anthracnose,54.666666666666664,0.06833333333333334
+densenet121,jackfruit phyllosticta,35.0,0.043750000000000004
+densenet121,mango gall midge,23.666666666666668,0.029583333333333336
+densenet121,mango sooty mould,19.0,0.02375
+densenet121,tomato blight,18.666666666666668,0.023333333333333334
+densenet121,tomato leaf mold,14.0,0.0175
+densenet121,jackfruit leaf spot,12.666666666666666,0.015833333333333335
+densenet121,tomato spider mites,12.5,0.015625
+densenet121,mango healthy,11.333333333333334,0.014166666666666668
+densenet121,tomato insect damage,10.5,0.013125
+densenet121,cashew healthy,5.5,0.006875
+densenet121,jackfruit algal,3.5,0.004375
+densenet121,jackfruit healthy,3.0,0.00375
+densenet121,tomato healthy,1.0,0.00125
+densenet201,mango powdery mildew,489.3333333333333,0.6116666666666667
+densenet201,cashew fungal infection,211.66666666666666,0.26458333333333334
+densenet201,jackfruit sooty mold,23.0,0.028749999999999998
+densenet201,mango gall midge,21.666666666666668,0.027083333333333334
+densenet201,jackfruit anthracnose,17.333333333333332,0.021666666666666667
+densenet201,jackfruit phyllosticta,13.0,0.01625
+densenet201,tomato bacterial spot,13.0,0.01625
+densenet201,mango healthy,11.0,0.01375
+densenet201,jackfruit algal,9.0,0.01125
+densenet201,tomato insect damage,5.0,0.00625
+densenet201,cashew healthy,4.0,0.005
+densenet201,tomato blight,3.6666666666666665,0.004583333333333333
+densenet201,jackfruit leaf spot,3.0,0.00375
+efficientnet_b0,mango powdery mildew,231.33333333333334,0.2891666666666666
+efficientnet_b0,jackfruit sooty mold,192.33333333333334,0.24041666666666664
+efficientnet_b0,mango gall midge,138.33333333333334,0.1729166666666667
+efficientnet_b0,jackfruit phyllosticta,92.66666666666667,0.11583333333333334
+efficientnet_b0,mango sooty mould,41.0,0.05125
+efficientnet_b0,tomato spider mites,29.333333333333332,0.03666666666666667
+efficientnet_b0,cashew fungal infection,25.666666666666668,0.03208333333333333
+efficientnet_b0,mango healthy,19.666666666666668,0.024583333333333336
+efficientnet_b0,tomato leaf mold,8.5,0.010625
+efficientnet_b0,tomato healthy,7.0,0.00875
+efficientnet_b0,jackfruit anthracnose,5.666666666666667,0.007083333333333334
+efficientnet_b0,tomato curl virus,5.5,0.006875
+efficientnet_b0,tomato insect damage,5.0,0.0062499999999999995
+efficientnet_b0,jackfruit healthy,3.0,0.00375
+efficientnet_b0,jackfruit leaf spot,3.0,0.00375
+efficientnet_b0,tomato blight,3.0,0.00375
+efficientnet_b0,mango anthracnose,2.0,0.0025
+efficientnet_b0,jackfruit algal,1.5,0.001875
+efficientnet_b0,cashew healthy,1.0,0.00125
+efficientnet_b3,mango powdery mildew,477.8333333333333,0.5972916666666667
+efficientnet_b3,jackfruit sooty mold,101.66666666666667,0.12708333333333333
+efficientnet_b3,jackfruit phyllosticta,65.66666666666667,0.08208333333333333
+efficientnet_b3,mango gall midge,62.0,0.0775
+efficientnet_b3,cashew fungal infection,34.0,0.0425
+efficientnet_b3,mango healthy,17.333333333333332,0.021666666666666667
+efficientnet_b3,mango anthracnose,11.0,0.01375
+efficientnet_b3,mango sooty mould,9.75,0.0121875
+efficientnet_b3,tomato bacterial spot,8.6,0.010750000000000001
+efficientnet_b3,jackfruit leaf spot,6.0,0.0075000000000000015
+efficientnet_b3,tomato healthy,6.0,0.0075
+efficientnet_b3,tomato insect damage,5.833333333333333,0.007291666666666666
+efficientnet_b3,cashew healthy,5.0,0.00625
+efficientnet_b3,tomato blight,3.5,0.0043749999999999995
+efficientnet_b3,tomato spider mites,2.75,0.0034375
+efficientnet_b3,tomato leaf mold,2.3333333333333335,0.002916666666666667
+efficientnet_b3,jackfruit healthy,2.0,0.0025
+efficientnet_b3,jackfruit algal,1.0,0.00125
+efficientnet_b3,tomato curl virus,1.0,0.00125
+ghostnet_100,mango powdery mildew,273.3333333333333,0.3416666666666666
+ghostnet_100,jackfruit phyllosticta,171.66666666666666,0.21458333333333335
+ghostnet_100,cashew fungal infection,147.33333333333334,0.18416666666666667
+ghostnet_100,jackfruit sooty mold,89.66666666666667,0.11208333333333333
+ghostnet_100,mango gall midge,42.666666666666664,0.05333333333333334
+ghostnet_100,tomato spider mites,17.5,0.021875
+ghostnet_100,mango sooty mould,11.666666666666666,0.014583333333333332
+ghostnet_100,cashew healthy,10.0,0.012499999999999999
+ghostnet_100,jackfruit anthracnose,8.666666666666666,0.010833333333333334
+ghostnet_100,tomato insect damage,6.5,0.008125
+ghostnet_100,jackfruit leaf spot,6.333333333333333,0.007916666666666667
+ghostnet_100,jackfruit algal,6.0,0.0075
+ghostnet_100,tomato leaf mold,6.0,0.0075
+ghostnet_100,mango anthracnose,5.0,0.00625
+ghostnet_100,mango healthy,4.333333333333333,0.005416666666666667
+ghostnet_100,tomato healthy,3.0,0.00375
+ghostnet_100,tomato bacterial spot,1.6666666666666667,0.0020833333333333333
+ghostnet_100,tomato blight,1.5,0.001875
+ghostnet_100,jackfruit healthy,1.0,0.00125
+inception_v3,mango powdery mildew,456.3333333333333,0.5704166666666667
+inception_v3,jackfruit sooty mold,117.33333333333333,0.14666666666666667
+inception_v3,cashew fungal infection,63.0,0.07875
+inception_v3,mango gall midge,54.0,0.0675
+inception_v3,jackfruit anthracnose,41.333333333333336,0.05166666666666667
+inception_v3,jackfruit phyllosticta,39.333333333333336,0.04916666666666667
+inception_v3,tomato insect damage,7.333333333333333,0.009166666666666668
+inception_v3,mango healthy,6.0,0.0075
+inception_v3,cashew healthy,5.666666666666667,0.007083333333333334
+inception_v3,jackfruit algal,5.5,0.006875000000000001
+inception_v3,tomato spider mites,3.5,0.004375
+inception_v3,mango anthracnose,2.0,0.0025
+inception_v3,mango sooty mould,2.0,0.0025
+inception_v3,jackfruit healthy,1.0,0.00125
+inception_v3,tomato bacterial spot,1.0,0.00125
+inception_v3,tomato blight,1.0,0.00125
+legacy_seresnext50_32x4d,mango powdery mildew,395.3333333333333,0.49416666666666664
+legacy_seresnext50_32x4d,cashew fungal infection,215.83333333333334,0.26979166666666665
+legacy_seresnext50_32x4d,mango gall midge,68.66666666666667,0.08583333333333333
+legacy_seresnext50_32x4d,jackfruit sooty mold,65.33333333333333,0.08166666666666667
+legacy_seresnext50_32x4d,jackfruit phyllosticta,28.666666666666668,0.035833333333333335
+legacy_seresnext50_32x4d,jackfruit algal,12.6,0.01575
+legacy_seresnext50_32x4d,mango sooty mould,11.5,0.014375
+legacy_seresnext50_32x4d,jackfruit anthracnose,8.0,0.01
+legacy_seresnext50_32x4d,cashew healthy,4.0,0.005
+legacy_seresnext50_32x4d,mango healthy,2.3333333333333335,0.002916666666666667
+legacy_seresnext50_32x4d,tomato blight,2.3333333333333335,0.002916666666666667
+legacy_seresnext50_32x4d,tomato insect damage,1.3333333333333333,0.0016666666666666668
+legacy_seresnext50_32x4d,tomato leaf mold,1.0,0.00125
+legacy_xception,mango powdery mildew,572.6666666666666,0.7158333333333333
+legacy_xception,cashew fungal infection,79.0,0.09875
+legacy_xception,mango gall midge,59.333333333333336,0.07416666666666667
+legacy_xception,mango healthy,26.333333333333332,0.03291666666666667
+legacy_xception,jackfruit phyllosticta,15.333333333333334,0.019166666666666665
+legacy_xception,jackfruit sooty mold,14.666666666666666,0.018333333333333333
+legacy_xception,jackfruit anthracnose,11.0,0.01375
+legacy_xception,cashew healthy,6.666666666666667,0.008333333333333333
+legacy_xception,mango anthracnose,5.666666666666667,0.007083333333333334
+legacy_xception,jackfruit algal,4.666666666666667,0.005833333333333334
+legacy_xception,tomato insect damage,3.5,0.004375
+legacy_xception,tomato spider mites,2.0,0.0025
+legacy_xception,mango sooty mould,1.0,0.00125
+legacy_xception,tomato bacterial spot,1.0,0.00125
+legacy_xception,tomato healthy,1.0,0.00125
+mnasnet_100,mango powdery mildew,559.6666666666666,0.6995833333333333
+mnasnet_100,mango gall midge,59.333333333333336,0.07416666666666667
+mnasnet_100,jackfruit phyllosticta,49.666666666666664,0.06208333333333333
+mnasnet_100,cashew fungal infection,22.0,0.0275
+mnasnet_100,tomato spider mites,20.333333333333332,0.025416666666666667
+mnasnet_100,mango healthy,17.333333333333332,0.021666666666666667
+mnasnet_100,jackfruit sooty mold,13.0,0.01625
+mnasnet_100,mango anthracnose,13.0,0.01625
+mnasnet_100,mango sooty mould,13.0,0.01625
+mnasnet_100,tomato blight,11.0,0.01375
+mnasnet_100,jackfruit anthracnose,10.666666666666666,0.013333333333333334
+mnasnet_100,tomato leaf mold,8.5,0.010624999999999999
+mnasnet_100,jackfruit leaf spot,5.0,0.00625
+mnasnet_100,tomato curl virus,3.0,0.00375
+mnasnet_100,tomato insect damage,2.6666666666666665,0.0033333333333333335
+mnasnet_100,jackfruit algal,2.3333333333333335,0.002916666666666667
+mnasnet_100,jackfruit healthy,2.0,0.0025
+mnasnet_100,cashew healthy,1.5,0.001875
+mnasnet_100,tomato bacterial spot,1.0,0.00125
+mnasnet_100,tomato healthy,1.0,0.00125
+mobilenetv2_100,mango powdery mildew,395.6666666666667,0.4945833333333333
+mobilenetv2_100,jackfruit sooty mold,156.66666666666666,0.19583333333333333
+mobilenetv2_100,jackfruit phyllosticta,70.0,0.08750000000000001
+mobilenetv2_100,jackfruit anthracnose,47.0,0.05875
+mobilenetv2_100,mango gall midge,36.666666666666664,0.04583333333333334
+mobilenetv2_100,cashew fungal infection,24.666666666666668,0.030833333333333334
+mobilenetv2_100,jackfruit leaf spot,19.333333333333332,0.024166666666666666
+mobilenetv2_100,tomato insect damage,17.666666666666668,0.022083333333333333
+mobilenetv2_100,jackfruit algal,8.333333333333334,0.010416666666666666
+mobilenetv2_100,tomato spider mites,8.0,0.01
+mobilenetv2_100,cashew healthy,6.666666666666667,0.008333333333333333
+mobilenetv2_100,tomato blight,5.666666666666667,0.007083333333333333
+mobilenetv2_100,mango healthy,3.5,0.004375
+mobilenetv2_100,tomato healthy,3.0,0.00375
+mobilenetv2_100,mango die back,2.0,0.0025
+mobilenetv2_100,tomato leaf mold,2.0,0.0025
+mobilenetv2_100,tomato bacterial spot,1.5,0.001875
+mobilenetv2_100,jackfruit healthy,1.0,0.00125
+mobilenetv2_100,mango sooty mould,1.0,0.00125
+mobilenetv3_large_100,mango powdery mildew,346.3333333333333,0.43291666666666667
+mobilenetv3_large_100,jackfruit phyllosticta,153.33333333333334,0.19166666666666665
+mobilenetv3_large_100,jackfruit sooty mold,143.0,0.17875
+mobilenetv3_large_100,cashew fungal infection,40.0,0.049999999999999996
+mobilenetv3_large_100,mango gall midge,32.666666666666664,0.04083333333333333
+mobilenetv3_large_100,tomato insect damage,28.666666666666668,0.035833333333333335
+mobilenetv3_large_100,jackfruit leaf spot,11.0,0.01375
+mobilenetv3_large_100,mango sooty mould,9.0,0.011250000000000001
+mobilenetv3_large_100,cashew healthy,8.0,0.01
+mobilenetv3_large_100,mango healthy,8.0,0.01
+mobilenetv3_large_100,jackfruit algal,6.5,0.008125
+mobilenetv3_large_100,jackfruit anthracnose,6.0,0.0075
+mobilenetv3_large_100,mango anthracnose,6.0,0.0075
+mobilenetv3_large_100,tomato leaf mold,6.0,0.0075
+mobilenetv3_large_100,tomato blight,3.0,0.0037500000000000003
+mobilenetv3_large_100,tomato spider mites,3.0,0.0037500000000000003
+mobilenetv3_large_100,tomato healthy,2.5,0.003125
+mobilenetv3_large_100,jackfruit healthy,1.5,0.001875
+regnety_016,mango powdery mildew,562.0,0.7025
+regnety_016,mango gall midge,75.33333333333333,0.09416666666666668
+regnety_016,cashew fungal infection,57.333333333333336,0.07166666666666667
+regnety_016,jackfruit phyllosticta,30.0,0.0375
+regnety_016,jackfruit anthracnose,19.333333333333332,0.02416666666666667
+regnety_016,jackfruit algal,15.5,0.019375
+regnety_016,jackfruit sooty mold,14.333333333333334,0.017916666666666668
+regnety_016,mango healthy,12.666666666666666,0.015833333333333335
+regnety_016,tomato insect damage,10.0,0.012499999999999999
+regnety_016,cashew healthy,5.666666666666667,0.007083333333333334
+regnety_016,tomato leaf mold,3.0,0.00375
+regnety_016,mango anthracnose,2.0,0.0025
+regnety_016,jackfruit leaf spot,1.0,0.00125
+regnety_016,mango sooty mould,1.0,0.00125
+regnety_016,tomato bacterial spot,1.0,0.00125
+resnet101,mango powdery mildew,440.6666666666667,0.5508333333333333
+resnet101,mango gall midge,144.66666666666666,0.18083333333333332
+resnet101,jackfruit anthracnose,46.333333333333336,0.05791666666666667
+resnet101,cashew fungal infection,41.0,0.05125
+resnet101,jackfruit sooty mold,33.666666666666664,0.042083333333333334
+resnet101,mango healthy,33.666666666666664,0.042083333333333334
+resnet101,jackfruit phyllosticta,30.0,0.0375
+resnet101,mango sooty mould,24.0,0.03
+resnet101,jackfruit algal,2.5,0.003125
+resnet101,jackfruit leaf spot,2.0,0.0025
+resnet101,tomato blight,1.5,0.001875
+resnet101,cashew healthy,1.3333333333333333,0.0016666666666666668
+resnet101,mango anthracnose,1.0,0.00125
+resnet101,mango die back,1.0,0.00125
+resnet101,tomato insect damage,1.0,0.00125
+resnet101,tomato spider mites,1.0,0.00125
+resnet50,mango powdery mildew,457.0,0.57125
+resnet50,cashew fungal infection,107.33333333333333,0.13416666666666666
+resnet50,jackfruit sooty mold,56.666666666666664,0.07083333333333333
+resnet50,mango gall midge,48.0,0.06
+resnet50,jackfruit phyllosticta,42.333333333333336,0.05291666666666667
+resnet50,tomato spider mites,27.666666666666668,0.034583333333333334
+resnet50,jackfruit anthracnose,20.333333333333332,0.02541666666666667
+resnet50,tomato insect damage,16.0,0.02
+resnet50,mango healthy,9.0,0.011250000000000001
+resnet50,jackfruit algal,5.666666666666667,0.007083333333333333
+resnet50,cashew healthy,4.666666666666667,0.005833333333333334
+resnet50,mango sooty mould,3.0,0.0037500000000000003
+resnet50,jackfruit healthy,3.0,0.00375
+resnet50,tomato blight,3.0,0.00375
+resnet50,tomato leaf mold,1.0,0.00125
+resnext50_32x4d,mango powdery mildew,461.6666666666667,0.5770833333333333
+resnext50_32x4d,cashew fungal infection,148.0,0.18499999999999997
+resnext50_32x4d,mango gall midge,68.0,0.085
+resnext50_32x4d,jackfruit sooty mold,37.666666666666664,0.04708333333333333
+resnext50_32x4d,mango healthy,33.666666666666664,0.042083333333333334
+resnext50_32x4d,jackfruit phyllosticta,27.666666666666668,0.034583333333333334
+resnext50_32x4d,jackfruit healthy,12.0,0.015
+resnext50_32x4d,jackfruit anthracnose,8.666666666666666,0.010833333333333334
+resnext50_32x4d,jackfruit algal,5.333333333333333,0.006666666666666667
+resnext50_32x4d,mango sooty mould,3.5,0.004375
+resnext50_32x4d,tomato spider mites,1.5,0.001875
+resnext50_32x4d,jackfruit leaf spot,1.0,0.00125
+resnext50_32x4d,tomato blight,1.0,0.00125
+resnext50_32x4d,tomato healthy,1.0,0.00125
+resnext50_32x4d,tomato insect damage,1.0,0.00125
+resnext50_32x4d,tomato leaf mold,1.0,0.00125
+swin_small_patch4_window7_224,mango powdery mildew,348.5,0.435625
+swin_small_patch4_window7_224,jackfruit sooty mold,167.66666666666666,0.20958333333333334
+swin_small_patch4_window7_224,cashew fungal infection,146.33333333333334,0.18291666666666664
+swin_small_patch4_window7_224,mango gall midge,95.16666666666667,0.11895833333333333
+swin_small_patch4_window7_224,mango healthy,14.0,0.0175
+swin_small_patch4_window7_224,tomato insect damage,13.25,0.0165625
+swin_small_patch4_window7_224,jackfruit phyllosticta,9.5,0.011875000000000002
+swin_small_patch4_window7_224,cashew healthy,5.5,0.006875
+swin_small_patch4_window7_224,jackfruit anthracnose,4.666666666666667,0.005833333333333334
+swin_small_patch4_window7_224,mango sooty mould,3.5,0.004375
+swin_small_patch4_window7_224,tomato blight,3.0,0.00375
+swin_small_patch4_window7_224,jackfruit leaf spot,2.5,0.003125
+swin_small_patch4_window7_224,jackfruit algal,1.5,0.001875
+swin_small_patch4_window7_224,jackfruit healthy,1.0,0.00125
+swin_tiny_patch4_window7_224,mango powdery mildew,281.3333333333333,0.3516666666666666
+swin_tiny_patch4_window7_224,cashew fungal infection,245.66666666666666,0.3070833333333333
+swin_tiny_patch4_window7_224,jackfruit sooty mold,149.66666666666666,0.18708333333333335
+swin_tiny_patch4_window7_224,tomato blight,48.0,0.06
+swin_tiny_patch4_window7_224,tomato spider mites,41.0,0.05125
+swin_tiny_patch4_window7_224,mango gall midge,31.333333333333332,0.03916666666666666
+swin_tiny_patch4_window7_224,cashew healthy,10.666666666666666,0.013333333333333334
+swin_tiny_patch4_window7_224,jackfruit phyllosticta,7.666666666666667,0.009583333333333333
+swin_tiny_patch4_window7_224,tomato insect damage,7.0,0.008749999999999999
+swin_tiny_patch4_window7_224,mango sooty mould,5.333333333333333,0.006666666666666667
+swin_tiny_patch4_window7_224,tomato leaf mold,2.0,0.0025
+swin_tiny_patch4_window7_224,jackfruit algal,1.0,0.00125
+swin_tiny_patch4_window7_224,jackfruit anthracnose,1.0,0.00125
+swin_tiny_patch4_window7_224,jackfruit leaf spot,1.0,0.00125
+swin_tiny_patch4_window7_224,tomato bacterial spot,1.0,0.00125
+vgg16,cashew fungal infection,268.6666666666667,0.3358333333333334
+vgg16,mango powdery mildew,238.66666666666666,0.29833333333333334
+vgg16,jackfruit sooty mold,172.0,0.215
+vgg16,tomato spider mites,47.333333333333336,0.059166666666666666
+vgg16,jackfruit phyllosticta,42.666666666666664,0.05333333333333334
+vgg16,jackfruit leaf spot,11.666666666666666,0.014583333333333332
+vgg16,jackfruit anthracnose,7.666666666666667,0.009583333333333334
+vgg16,tomato blight,5.0,0.00625
+vgg16,jackfruit algal,4.0,0.005
+vgg16,mango gall midge,3.6666666666666665,0.004583333333333333
+vgg16,tomato insect damage,3.0,0.00375
+vgg16,cashew healthy,2.3333333333333335,0.0029166666666666664
+vgg19,jackfruit sooty mold,278.0,0.3475
+vgg19,cashew fungal infection,222.66666666666666,0.2783333333333333
+vgg19,mango powdery mildew,208.0,0.26
+vgg19,mango gall midge,28.666666666666668,0.035833333333333335
+vgg19,tomato insect damage,20.0,0.024999999999999998
+vgg19,jackfruit phyllosticta,12.666666666666666,0.015833333333333335
+vgg19,cashew healthy,12.333333333333334,0.015416666666666667
+vgg19,jackfruit leaf spot,6.0,0.0075
+vgg19,jackfruit anthracnose,5.0,0.006250000000000001
+vgg19,tomato blight,4.666666666666667,0.005833333333333334
+vgg19,jackfruit algal,4.333333333333333,0.005416666666666667
+vgg19,mango sooty mould,2.0,0.0025
+vgg19,tomato healthy,1.0,0.00125
+vgg19,tomato spider mites,1.0,0.00125
+vit_base_patch16_224,mango powdery mildew,506.3333333333333,0.6329166666666667
+vit_base_patch16_224,mango gall midge,125.33333333333333,0.15666666666666668
+vit_base_patch16_224,jackfruit phyllosticta,44.666666666666664,0.05583333333333334
+vit_base_patch16_224,mango sooty mould,28.666666666666668,0.035833333333333335
+vit_base_patch16_224,jackfruit anthracnose,19.666666666666668,0.024583333333333332
+vit_base_patch16_224,jackfruit sooty mold,18.5,0.023125
+vit_base_patch16_224,cashew fungal infection,16.666666666666668,0.020833333333333332
+vit_base_patch16_224,tomato blight,11.666666666666666,0.014583333333333332
+vit_base_patch16_224,jackfruit algal,9.5,0.011875
+vit_base_patch16_224,tomato insect damage,9.0,0.011250000000000001
+vit_base_patch16_224,mango healthy,9.0,0.01125
+vit_base_patch16_224,mango anthracnose,7.0,0.00875
+vit_base_patch16_224,cashew healthy,6.666666666666667,0.008333333333333333
+vit_base_patch16_224,tomato bacterial spot,4.0,0.005
+vit_base_patch16_224,tomato leaf mold,2.0,0.0025
+vit_base_patch16_224,tomato spider mites,1.5,0.001875
+vit_small_patch16_224,mango powdery mildew,384.5,0.480625
+vit_small_patch16_224,jackfruit sooty mold,137.0,0.17125
+vit_small_patch16_224,cashew fungal infection,115.66666666666667,0.1445833333333333
+vit_small_patch16_224,mango gall midge,87.83333333333333,0.10979166666666666
+vit_small_patch16_224,jackfruit phyllosticta,34.5,0.043125000000000004
+vit_small_patch16_224,mango healthy,14.333333333333334,0.017916666666666668
+vit_small_patch16_224,tomato blight,10.0,0.0125
+vit_small_patch16_224,jackfruit anthracnose,7.666666666666667,0.009583333333333333
+vit_small_patch16_224,cashew healthy,5.4,0.006750000000000001
+vit_small_patch16_224,tomato insect damage,3.5,0.004375
+vit_small_patch16_224,mango sooty mould,3.0,0.00375
+vit_small_patch16_224,jackfruit algal,2.75,0.0034375
+vit_small_patch16_224,jackfruit leaf spot,2.0,0.0025
+vit_small_patch16_224,tomato leaf mold,2.0,0.0025
+vit_small_patch16_224,mango anthracnose,1.0,0.00125
+vit_small_patch16_224,tomato bacterial spot,1.0,0.00125

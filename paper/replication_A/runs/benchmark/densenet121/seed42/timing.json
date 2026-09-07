@@ -1,0 +1,10 @@
+{
+  "tag": "benchmark/densenet121/seed42",
+  "model": "densenet121",
+  "seed": 42,
+  "started_at": "2026-08-05T01:33:32",
+  "ended_at": "2026-08-05T01:40:09",
+  "run_duration_sec": 397.7,
+  "train_sec_cumulative": 357.8,
+  "n_epochs": 19
+}

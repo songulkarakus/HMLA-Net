@@ -1,0 +1,10 @@
+{
+  "tag": "ablation/wo_mixup_cooldown/seed42",
+  "model": "caformer_s18.sail_in22k_ft_in1k",
+  "seed": 42,
+  "started_at": "2026-08-05T15:46:47",
+  "ended_at": "2026-08-05T16:00:18",
+  "run_duration_sec": 811.2,
+  "train_sec_cumulative": 738.3,
+  "n_epochs": 23
+}

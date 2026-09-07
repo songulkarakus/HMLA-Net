@@ -1,0 +1,4 @@
+recipe,use_mixup,use_ema,use_tta,use_llrd,mixup_off_epochs,tta_group
+standard,False,False,False,False,8,none
+matched,True,True,True,True,8,klein
+proposed,True,True,True,True,8,klein

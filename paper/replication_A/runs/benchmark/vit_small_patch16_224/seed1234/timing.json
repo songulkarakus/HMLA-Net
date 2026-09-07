@@ -1,0 +1,10 @@
+{
+  "tag": "benchmark/vit_small_patch16_224/seed1234",
+  "model": "vit_small_patch16_224",
+  "seed": 1234,
+  "started_at": "2026-08-05T07:44:51",
+  "ended_at": "2026-08-05T07:51:03",
+  "run_duration_sec": 372.3,
+  "train_sec_cumulative": 335.5,
+  "n_epochs": 32
+}

@@ -106,7 +106,7 @@ make_report.py          Markdown report of all outputs
 train.py / predict.py   simple single-model path and single-image prediction
 tools/                  supervisor (auto-restart), external-result collector, result archiver
 mld24_map.json          MLD24 folder → class mapping used for the external validation
-paper/                  partition files, derived numbers and the scripts that regenerate the paper's tables and figures
+paper/                  partitions, archived run outputs, derived numbers and the scripts that regenerate the paper's tables and figures
 docs/                   figures used in this README
 ```
 
@@ -223,12 +223,15 @@ every table and figure of the manuscript are provided as the paper's supplementa
 
 ## 8. Partition files, derived numbers and the paper's scripts
 
-`paper/` contains the exact train / validation / test partitions of the three seeds with their SHA-256
-fingerprints (`paper/partitions/`), every number quoted in the manuscript (`paper/output/numbers.json`),
-the LaTeX bodies of the generated tables (`paper/output/tables/`) and the scripts that derive all of them
-from the archived run outputs of both executions of the benchmark (`paper/scripts/`). The archived run
-outputs themselves (about 280 MB of per-image predictions) are distributed as the paper's supplementary
-material; `paper/README.md` explains how to run the chain on top of them.
+`paper/` is the complete evidence base of the manuscript: the exact train / validation / test partitions of
+the three seeds with their SHA-256 fingerprints (`paper/partitions/`), the archived outputs of the 278
+runs of both executions of the benchmark (`paper/replication_A/`, `paper/replication_B/`: configuration,
+metrics, per-class results, selection records, analyses, duplicate audit, class-level forensics), every
+number quoted in the manuscript (`paper/output/numbers.json`), the LaTeX bodies of the generated tables
+(`paper/output/tables/`) and the scripts that derive all of them (`paper/scripts/`). The per-image
+predictions of the runs (about 240 MB) are attached to the release of this version as `predictions.zip`
+and are downloaded by `paper/scripts/reproduce.sh` when absent; `paper/README.md` and `paper/MANIFEST.md`
+describe the layout and map every table and figure to its sources.
 
 ## 9. Single-image prediction
 

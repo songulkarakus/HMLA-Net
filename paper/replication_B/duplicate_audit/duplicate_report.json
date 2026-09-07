@@ -1,0 +1,2253 @@
+{
+  "internal": {
+    "dir": "multiple leaf dataset",
+    "n_images": 7179,
+    "n_md5_duplicates_removed_at_index": 76
+  },
+  "thresholds": {
+    "phash_hamming": 6,
+    "cosine": 0.95
+  },
+  "cross_corpus": {
+    "exact_md5": {
+      "n_exact_matches": 0,
+      "rate_of_b": 0.0,
+      "examples": []
+    },
+    "perceptual_phash": {
+      "n_near_duplicates": 117,
+      "rate_of_b": 0.024375,
+      "threshold": 6,
+      "key": "phash",
+      "min_distance_mean": 12.348333333333333,
+      "min_distance_p01": 6.0,
+      "min_distance_histogram": {
+        "2": 1,
+        "3": 2,
+        "4": 12,
+        "5": 14,
+        "6": 88,
+        "7": 90,
+        "8": 204,
+        "9": 269,
+        "10": 478,
+        "11": 620,
+        "12": 714,
+        "13": 669,
+        "14": 574,
+        "15": 457,
+        "16": 319,
+        "17": 172,
+        "18": 83,
+        "19": 25,
+        "20": 7,
+        "21": 2
+      },
+      "examples": [
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(117).jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(51).png",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(118).jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(51).png",
+          "hamming": 4
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(162).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango die back/mango die back (244).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(163).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango die back/mango die back (244).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(284).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango healthy/mango healthy (473).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(288).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango healthy/mango healthy (351).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(289).jpg",
+          "a": "multiple leaf dataset/tomato leaf/tomato healthy/tomato healthy (51).jpeg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(290).jpg",
+          "a": "multiple leaf dataset/tomato leaf/tomato healthy/tomato healthy (51).jpeg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(308).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (493).jpg",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(309).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (493).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(385).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango healthy/mango healthy (473).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(389).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango healthy/mango healthy (351).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(390).jpg",
+          "a": "multiple leaf dataset/tomato leaf/tomato healthy/tomato healthy (51).jpeg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(391).jpg",
+          "a": "multiple leaf dataset/tomato leaf/tomato healthy/tomato healthy (51).jpeg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(409).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (493).jpg",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(410).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (493).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(485).jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(14).png",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(52).jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(51).png",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(546).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (114).jpg",
+          "hamming": 4
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(550).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (178).jpg",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(684).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (394).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(698).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango die back/mango die back (244).jpg",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(778).jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(185).png",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Die_Back/Image001(151).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (293).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Die_Back/Image001(255).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (43).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Die_Back/Image001(439).jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(26).png",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Die_Back/Image001(440).jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(26).png",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Die_Back/Image001(444).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (79).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Die_Back/Image001(445).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (79).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Die_Back/Image001(517).jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(26).png",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Die_Back/Image001(518).jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(26).png",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Die_Back/Image001(522).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (79).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Die_Back/Image001(523).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (79).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Die_Back/Image001(53).jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(26).png",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Die_Back/Image001(54).jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(26).png",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Die_Back/Image001(549).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango healthy/mango healthy (240).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Die_Back/Image001(550).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango healthy/mango healthy (240).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Die_Back/Image001(58).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (79).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Die_Back/Image001(59).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (79).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Die_Back/Image001(615).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (293).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Die_Back/Image001(719).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (43).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Die_Back/Image001(85).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango healthy/mango healthy (240).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Die_Back/Image001(86).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango healthy/mango healthy (240).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00028.jpg",
+          "a": "multiple leaf dataset/mango leaf/mango die back/mango die back (339).jpg",
+          "hamming": 3
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00029.jpg",
+          "a": "multiple leaf dataset/mango leaf/mango die back/mango die back (339).jpg",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00035(54).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (100).jpg",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00089.jpg",
+          "a": "multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (100).jpg",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00170.jpg",
+          "a": "multiple leaf dataset/mango leaf/mango healthy/mango healthy (384).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00297.jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(94).png",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00299.jpg",
+          "a": "multiple leaf dataset/tomato leaf/tomato spider mites/tomato spider mites (5).jpg",
+          "hamming": 6
+        }
+      ]
+    },
+    "perceptual_dhash": {
+      "n_near_duplicates": 113,
+      "rate_of_b": 0.023541666666666666,
+      "threshold": 6,
+      "key": "dhash",
+      "min_distance_mean": 12.373958333333333,
+      "min_distance_p01": 6.0,
+      "min_distance_histogram": {
+        "2": 1,
+        "3": 2,
+        "4": 7,
+        "5": 27,
+        "6": 76,
+        "7": 163,
+        "8": 217,
+        "9": 336,
+        "10": 454,
+        "11": 557,
+        "12": 611,
+        "13": 617,
+        "14": 545,
+        "15": 419,
+        "16": 357,
+        "17": 233,
+        "18": 134,
+        "19": 34,
+        "20": 9,
+        "21": 1
+      },
+      "examples": [
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(149).jpg",
+          "a": "multiple leaf dataset/tomato leaf/tomato insect damage/tomato insect damage (61).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(235).jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(35).png",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(284).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (35).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(286).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (35).jpg",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(287).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (35).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(302).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango healthy/mango healthy (15).jpg",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(318).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango healthy/mango healthy (345).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(319).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango healthy/mango healthy (345).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(385).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (35).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(387).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (35).jpg",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(388).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (35).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(403).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango healthy/mango healthy (15).jpg",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(419).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango healthy/mango healthy (345).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(420).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango healthy/mango healthy (345).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(46).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango healthy/mango healthy (5).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(692).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango anthracnose/mango anthracnose (51).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Anthracnose/Image00001(778).jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(92).png",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Die_Back/Image001(143).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango healthy/mango healthy (57).jpg",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Die_Back/Image001(607).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango healthy/mango healthy (57).jpg",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00002.jpg",
+          "a": "multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (215).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00019.jpg",
+          "a": "multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (81).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00025.jpg",
+          "a": "multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (258).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00031.jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(307).png",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00035(10).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (181).jpg",
+          "hamming": 4
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00035(11).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (413).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00035(12).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (413).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00035(17).jpg",
+          "a": "multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (196).jpg",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00035(24).jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(232).png",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00035(34).jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(345).png",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00035(9).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (247).jpg",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00044.jpg",
+          "a": "multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (247).jpg",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00045.jpg",
+          "a": "multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (181).jpg",
+          "hamming": 4
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00046.jpg",
+          "a": "multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (413).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00047.jpg",
+          "a": "multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (413).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00052.jpg",
+          "a": "multiple leaf dataset/tomato leaf/tomato curl virus/tomato curl virus (196).jpg",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00059.jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(232).png",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00069.jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(345).png",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00127.jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(306).png",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00128.jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(306).png",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00129.jpg",
+          "a": "multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (78).jpg",
+          "hamming": 4
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00166.jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(81).png",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00167.jpg",
+          "a": "multiple leaf dataset/jackfruit leaf/jackfruit sooty mold/sooty_mold_(15).png",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00178.jpg",
+          "a": "multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (258).jpg",
+          "hamming": 5
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00226.jpg",
+          "a": "multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (273).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00268.jpg",
+          "a": "multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (19).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00270.jpg",
+          "a": "multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (19).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00300.jpg",
+          "a": "multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (96).jpg",
+          "hamming": 2
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00340.jpg",
+          "a": "multiple leaf dataset/mango leaf/mango gall midge/mango gall midge (134).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Gall_Midge/Image00726.jpg",
+          "a": "multiple leaf dataset/mango leaf/mango sooty mould/mango sooty mould (95).jpg",
+          "hamming": 6
+        },
+        {
+          "b": "external dataset/MLD24/Healthy/Image00001(1).jpg",
+          "a": "multiple leaf dataset/mango leaf/mango powdery mildew/mango powdery mildew (288).jpg",
+          "hamming": 6
+        }
+      ]
+    },
+    "embedding_cosine": {
+      "n_above_threshold": 1,
+      "rate_of_b": 0.00020833333333333335,
+      "threshold": 0.95,
+      "max_cosine": 0.951575517654419,
+      "mean_max_cosine": 0.7851061224937439,
+      "p99_max_cosine": 0.9017706513404846,
+      "examples": [
+        {
+          "b": "external dataset/MLD24/Healthy/Image00219.jpg",
+          "a": "multiple leaf dataset/mango leaf/mango healthy/mango healthy (116).jpg",
+          "cosine": 0.951575517654419
+        }
+      ]
+    }
+  },
+  "within_internal": {
+    "n_near_duplicate_pairs": 1423,
+    "threshold": 6,
+    "key": "phash",
+    "n_files": 7179,
+    "examples": [
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_141401 - Copy.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew healthy/20251217_142226.jpg",
+        "hamming": 4
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_141401 - Copy.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew healthy/20251217_142232.jpg",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_141417.jpg",
+        "b": "multiple leaf dataset/jackfruit leaf/jackfruit algal/algal_(47).png",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_141507 - Copy.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_143541.jpg",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_141657.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_141703.jpg",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_141703.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_143427.jpg",
+        "hamming": 4
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_141833.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew healthy/IMG_20251217_141948.jpg",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_142320.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_141402.jpg",
+        "hamming": 4
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_142324.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_142433.jpg",
+        "hamming": 4
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_142351.jpg",
+        "b": "multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(26).png",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_142549.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew healthy/20251217_142644.jpg",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_142549.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew healthy/20251217_142721.jpg",
+        "hamming": 5
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_142651.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew healthy/20251217_142702.jpg",
+        "hamming": 2
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_142908.jpg",
+        "b": "multiple leaf dataset/jackfruit leaf/jackfruit anthracnose/anthracnose_(36).png",
+        "hamming": 2
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_142908.jpg",
+        "b": "multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(215).png",
+        "hamming": 5
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_142908.jpg",
+        "b": "multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(138).png",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_142908.jpg",
+        "b": "multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(230).png",
+        "hamming": 5
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_142908.jpg",
+        "b": "multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(75).png",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_143019.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew healthy/20251217_142900.jpg",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_143511.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_143156.jpg",
+        "hamming": 5
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_143511.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew healthy/20251217_142034.jpg",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/20251217_143550 - Copy.jpg",
+        "b": "multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(109).png",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_140923.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_140934.jpg",
+        "hamming": 4
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_141015.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_141214.jpg",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_141015.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_141336.jpg",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_141109.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_141336.jpg",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_141113.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew healthy/IMG_20251217_141151.jpg",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_141533.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_141641.jpg",
+        "hamming": 4
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_141557.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_141732.jpg",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_141738.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_141838.jpg",
+        "hamming": 5
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_141838.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew healthy/IMG_20251217_141443.jpg",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_142453.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew healthy/IMG_20251217_143454.jpg",
+        "hamming": 4
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_142546.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_143603.jpg",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_142553.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_142855 - Copy.jpg",
+        "hamming": 4
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_142637.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew healthy/IMG_20251217_142728.jpg",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_142927.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew healthy/20251217_142426.jpg",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_143156.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew healthy/20251217_142034.jpg",
+        "hamming": 5
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_143204.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_143221.jpg",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_143204.jpg",
+        "b": "multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(202).png",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew fungal infection/IMG_20251217_143525.jpg",
+        "b": "multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(322).png",
+        "hamming": 5
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew healthy/20251217_140916.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew healthy/20251217_141348.jpg",
+        "hamming": 4
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew healthy/20251217_140916.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew healthy/IMG_20251217_142409.jpg",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew healthy/20251217_140916.jpg",
+        "b": "multiple leaf dataset/jackfruit leaf/jackfruit healthy/healthy_(92).png",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew healthy/20251217_141149.jpg",
+        "b": "multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(236).png",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew healthy/20251217_141318.jpg",
+        "b": "multiple leaf dataset/jackfruit leaf/jackfruit phyllosticta/phyllosticta_(202).png",
+        "hamming": 5
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew healthy/20251217_141331.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew healthy/IMG_20251217_142409.jpg",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew healthy/20251217_141337.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew healthy/20251217_143523.jpg",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew healthy/20251217_141348.jpg",
+        "b": "multiple leaf dataset/jackfruit leaf/jackfruit leaf spot/leaf_spot_(119).png",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew healthy/20251217_141431.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew healthy/IMG_20251217_142328.jpg",
+        "hamming": 6
+      },
+      {
+        "a": "multiple leaf dataset/cashew leaf/cashew healthy/20251217_141431.jpg",
+        "b": "multiple leaf dataset/cashew leaf/cashew healthy/IMG_20251217_142503.jpg",
+        "hamming": 6
+      }
+    ],
+    "n_cross_group_pairs": 424,
+    "n_within_group_pairs": 999,
+    "split_leakage_by_seed": {
+      "42": {
+        "pair_counts_by_split_pair": {
+          "train|val": 311,
+          "val|val": 36,
+          "train|train": 690,
+          "test|train": 283,
+          "test|test": 37,
+          "test|val": 66
+        },
+        "n_cross_split_pairs": 660,
+        "examples": [
+          {
+            "i": 20,
+            "j": 275,
+            "hamming": 4,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 26,
+            "j": 121,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 54,
+            "j": 61,
+            "hamming": 4,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 82,
+            "j": 976,
+            "hamming": 2,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 82,
+            "j": 1175,
+            "hamming": 5,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 82,
+            "j": 1405,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 117,
+            "j": 271,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 123,
+            "j": 1741,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 133,
+            "j": 134,
+            "hamming": 4,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 138,
+            "j": 149,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 164,
+            "j": 174,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 188,
+            "j": 232,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 189,
+            "j": 198,
+            "hamming": 4,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 194,
+            "j": 456,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 202,
+            "j": 286,
+            "hamming": 6,
+            "splits": [
+              "test",
+              "val"
+            ]
+          },
+          {
+            "i": 215,
+            "j": 271,
+            "hamming": 5,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 216,
+            "j": 218,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "test"
+            ]
+          },
+          {
+            "i": 230,
+            "j": 1977,
+            "hamming": 5,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 243,
+            "j": 256,
+            "hamming": 4,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 243,
+            "j": 445,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 253,
+            "j": 1845,
+            "hamming": 5,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 255,
+            "j": 313,
+            "hamming": 6,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 258,
+            "j": 442,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 266,
+            "j": 1845,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 276,
+            "j": 1514,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 302,
+            "j": 2406,
+            "hamming": 6,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 306,
+            "j": 362,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 320,
+            "j": 370,
+            "hamming": 2,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 321,
+            "j": 333,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 345,
+            "j": 380,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 350,
+            "j": 351,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 362,
+            "j": 364,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 362,
+            "j": 369,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 366,
+            "j": 394,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 434,
+            "j": 1621,
+            "hamming": 6,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 438,
+            "j": 1095,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 439,
+            "j": 471,
+            "hamming": 4,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 441,
+            "j": 442,
+            "hamming": 4,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 445,
+            "j": 1354,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 453,
+            "j": 463,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "test"
+            ]
+          },
+          {
+            "i": 463,
+            "j": 465,
+            "hamming": 6,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 467,
+            "j": 5675,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 467,
+            "j": 5723,
+            "hamming": 2,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 482,
+            "j": 2009,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 483,
+            "j": 677,
+            "hamming": 6,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 484,
+            "j": 1986,
+            "hamming": 5,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 485,
+            "j": 491,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 499,
+            "j": 975,
+            "hamming": 5,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 570,
+            "j": 889,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 570,
+            "j": 1576,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          }
+        ]
+      },
+      "1234": {
+        "pair_counts_by_split_pair": {
+          "train|train": 720,
+          "test|train": 317,
+          "train|val": 277,
+          "test|val": 60,
+          "val|val": 25,
+          "test|test": 24
+        },
+        "n_cross_split_pairs": 654,
+        "examples": [
+          {
+            "i": 20,
+            "j": 276,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 26,
+            "j": 121,
+            "hamming": 6,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 40,
+            "j": 113,
+            "hamming": 4,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 45,
+            "j": 427,
+            "hamming": 6,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 53,
+            "j": 156,
+            "hamming": 4,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 69,
+            "j": 293,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "test"
+            ]
+          },
+          {
+            "i": 82,
+            "j": 1175,
+            "hamming": 5,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 82,
+            "j": 2047,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 96,
+            "j": 305,
+            "hamming": 6,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 117,
+            "j": 215,
+            "hamming": 5,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 133,
+            "j": 134,
+            "hamming": 4,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 138,
+            "j": 154,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 141,
+            "j": 154,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 142,
+            "j": 411,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 164,
+            "j": 174,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 175,
+            "j": 181,
+            "hamming": 5,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 186,
+            "j": 475,
+            "hamming": 4,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 188,
+            "j": 232,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 189,
+            "j": 198,
+            "hamming": 4,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 215,
+            "j": 271,
+            "hamming": 5,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 216,
+            "j": 218,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 216,
+            "j": 1845,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 230,
+            "j": 1977,
+            "hamming": 5,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 243,
+            "j": 256,
+            "hamming": 4,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 243,
+            "j": 445,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 243,
+            "j": 1354,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 250,
+            "j": 1514,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 253,
+            "j": 1845,
+            "hamming": 5,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 255,
+            "j": 313,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 256,
+            "j": 1384,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 258,
+            "j": 442,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 258,
+            "j": 449,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "test"
+            ]
+          },
+          {
+            "i": 258,
+            "j": 621,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 258,
+            "j": 1564,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 268,
+            "j": 712,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 272,
+            "j": 1253,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 276,
+            "j": 1514,
+            "hamming": 6,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 293,
+            "j": 295,
+            "hamming": 3,
+            "splits": [
+              "test",
+              "val"
+            ]
+          },
+          {
+            "i": 306,
+            "j": 362,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 306,
+            "j": 369,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 307,
+            "j": 401,
+            "hamming": 5,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 311,
+            "j": 345,
+            "hamming": 5,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 329,
+            "j": 331,
+            "hamming": 4,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 336,
+            "j": 379,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 345,
+            "j": 380,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 350,
+            "j": 351,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 351,
+            "j": 369,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "test"
+            ]
+          },
+          {
+            "i": 362,
+            "j": 364,
+            "hamming": 6,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 414,
+            "j": 5753,
+            "hamming": 6,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 434,
+            "j": 1621,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          }
+        ]
+      },
+      "2024": {
+        "pair_counts_by_split_pair": {
+          "train|train": 695,
+          "train|val": 320,
+          "test|test": 33,
+          "test|train": 268,
+          "test|val": 68,
+          "val|val": 39
+        },
+        "n_cross_split_pairs": 656,
+        "examples": [
+          {
+            "i": 20,
+            "j": 276,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 39,
+            "j": 40,
+            "hamming": 6,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 45,
+            "j": 427,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 54,
+            "j": 61,
+            "hamming": 4,
+            "splits": [
+              "test",
+              "val"
+            ]
+          },
+          {
+            "i": 69,
+            "j": 293,
+            "hamming": 6,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 69,
+            "j": 295,
+            "hamming": 5,
+            "splits": [
+              "test",
+              "val"
+            ]
+          },
+          {
+            "i": 74,
+            "j": 294,
+            "hamming": 2,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 82,
+            "j": 1175,
+            "hamming": 5,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 82,
+            "j": 1405,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 82,
+            "j": 2047,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 96,
+            "j": 305,
+            "hamming": 6,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 123,
+            "j": 1741,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 141,
+            "j": 154,
+            "hamming": 6,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 142,
+            "j": 411,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 175,
+            "j": 181,
+            "hamming": 5,
+            "splits": [
+              "val",
+              "test"
+            ]
+          },
+          {
+            "i": 202,
+            "j": 286,
+            "hamming": 6,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 230,
+            "j": 1977,
+            "hamming": 5,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 243,
+            "j": 445,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 250,
+            "j": 1514,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 253,
+            "j": 1845,
+            "hamming": 5,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 256,
+            "j": 1384,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 266,
+            "j": 1845,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 268,
+            "j": 712,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 272,
+            "j": 1253,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 293,
+            "j": 295,
+            "hamming": 3,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 306,
+            "j": 362,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 311,
+            "j": 345,
+            "hamming": 5,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 323,
+            "j": 359,
+            "hamming": 4,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 335,
+            "j": 427,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 336,
+            "j": 379,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 345,
+            "j": 380,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 350,
+            "j": 351,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 351,
+            "j": 369,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 362,
+            "j": 364,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 362,
+            "j": 369,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 434,
+            "j": 1621,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 438,
+            "j": 1095,
+            "hamming": 6,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 441,
+            "j": 442,
+            "hamming": 4,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 445,
+            "j": 1354,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 467,
+            "j": 5723,
+            "hamming": 2,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 482,
+            "j": 1363,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 483,
+            "j": 677,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 484,
+            "j": 677,
+            "hamming": 6,
+            "splits": [
+              "test",
+              "val"
+            ]
+          },
+          {
+            "i": 484,
+            "j": 1986,
+            "hamming": 5,
+            "splits": [
+              "test",
+              "train"
+            ]
+          },
+          {
+            "i": 490,
+            "j": 682,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "val"
+            ]
+          },
+          {
+            "i": 528,
+            "j": 1248,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 570,
+            "j": 889,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 570,
+            "j": 1576,
+            "hamming": 6,
+            "splits": [
+              "val",
+              "train"
+            ]
+          },
+          {
+            "i": 571,
+            "j": 1586,
+            "hamming": 6,
+            "splits": [
+              "train",
+              "test"
+            ]
+          },
+          {
+            "i": 610,
+            "j": 678,
+            "hamming": 5,
+            "splits": [
+              "train",
+              "test"
+            ]
+          }
+        ]
+      }
+    },
+    "exact_within_after_index_dedup": {
+      "n_exact_duplicate_files": 0,
+      "n_unique_files": 7179,
+      "examples": []
+    }
+  }
+}

@@ -1,0 +1,4 @@
+seed,n_near_duplicate_pairs,n_cross_split_pairs,pairs_train|val,pairs_val|val,pairs_train|train,pairs_test|train,pairs_test|test,pairs_test|val
+42,1423,660,311,36,690,283,37,66
+1234,1423,654,277,25,720,317,24,60
+2024,1423,656,320,39,695,268,33,68

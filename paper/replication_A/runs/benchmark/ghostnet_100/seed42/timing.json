@@ -1,0 +1,10 @@
+{
+  "tag": "benchmark/ghostnet_100/seed42",
+  "model": "ghostnet_100",
+  "seed": 42,
+  "started_at": "2026-08-05T03:41:26",
+  "ended_at": "2026-08-05T03:45:33",
+  "run_duration_sec": 247.5,
+  "train_sec_cumulative": 214.6,
+  "n_epochs": 22
+}

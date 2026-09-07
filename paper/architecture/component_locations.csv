@@ -1,0 +1,8 @@
+component,module_path,attached_to,output_shape,role
+MixStyle,backbone.stages_0.1,backbone.stages_0,"(1, 64, 56, 56)","in-batch mixing of the feature statistics (mu, sigma) of stage 1; domain randomisation, active only during training"
+MixStyle,backbone.stages_1.1,backbone.stages_1,"(1, 128, 28, 28)","in-batch mixing of the feature statistics (mu, sigma) of stage 2; domain randomisation, active only during training"
+MSF (multi-scale fusion),msf,"backbone outputs of stages 2-4 (strides 8, 16, 32)","(1, 256, 14, 14)","projects the three maps to 256 channels and fuses them on the stride-16 grid with learned scale weights; Grad-CAM target"
+LAP (lesion-aware attentive pooling),pool,MSF output,"(1, 512)","gated multi-head (4) attentive pooling over the 196 positions, concatenated with the channel-wise maximum; the attention map is kept for the LAP figures"
+LayerNorm + dropout,norm; drop,LAP output,"(1, 512)","normalisation and dropout (p = 0.3) of the pooled descriptor; t-SNE embeddings are taken here"
+disease head,fc_disease,normalised descriptor,"(1, 21)","21-way disease classifier"
+crop head,fc_plant,normalised descriptor,"(1, 4)","auxiliary 4-way crop classifier; at inference its log-probabilities are added to the disease logits with the calibrated weight beta"

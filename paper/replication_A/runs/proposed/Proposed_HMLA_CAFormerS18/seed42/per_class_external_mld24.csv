@@ -1,0 +1,22 @@
+class,precision,recall_sensitivity,specificity,f1-score,support
+cashew fungal infection,0.0,0.0,0.9829166666666667,0.0,0.0
+cashew healthy,0.0,0.0,0.99125,0.0,0.0
+jackfruit algal,0.0,0.0,0.9879166666666667,0.0,0.0
+jackfruit anthracnose,0.0,0.0,0.990625,0.0,0.0
+jackfruit healthy,0.0,0.0,0.9995833333333334,0.0,0.0
+jackfruit leaf spot,0.0,0.0,1.0,0.0,0.0
+jackfruit phyllosticta,0.0,0.0,0.996875,0.0,0.0
+jackfruit sooty mold,0.0,0.0,0.9739583333333334,0.0,0.0
+mango anthracnose,0.8688147295742232,0.94375,0.9715,0.9047333732774117,800.0
+mango die back,1.0,0.9325,1.0,0.9650711513583441,800.0
+mango gall midge,0.7643097643097643,0.5675,0.965,0.6513629842180775,800.0
+mango healthy,0.9356014580801945,0.9625,0.98675,0.9488601355514479,800.0
+mango powdery mildew,0.445440956651719,0.745,0.8145,0.5575304022450889,800.0
+mango sooty mould,0.225,0.01125,0.99225,0.02142857142857143,800.0
+tomato bacterial spot,0.0,0.0,1.0,0.0,0.0
+tomato blight,0.0,0.0,1.0,0.0,0.0
+tomato curl virus,0.0,0.0,1.0,0.0,0.0
+tomato healthy,0.0,0.0,1.0,0.0,0.0
+tomato insect damage,0.0,0.0,0.9958333333333333,0.0,0.0
+tomato leaf mold,0.0,0.0,1.0,0.0,0.0
+tomato spider mites,0.0,0.0,0.9997916666666666,0.0,0.0

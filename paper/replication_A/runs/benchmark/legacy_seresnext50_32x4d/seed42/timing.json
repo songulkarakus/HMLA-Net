@@ -1,0 +1,10 @@
+{
+  "tag": "benchmark/legacy_seresnext50_32x4d/seed42",
+  "model": "legacy_seresnext50_32x4d",
+  "seed": 42,
+  "started_at": "2026-08-05T02:53:51",
+  "ended_at": "2026-08-05T03:04:05",
+  "run_duration_sec": 614.1,
+  "train_sec_cumulative": 572.8,
+  "n_epochs": 32
+}

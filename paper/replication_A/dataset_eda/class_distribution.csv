@@ -1,0 +1,22 @@
+class,plant,n_images
+cashew fungal infection,cashew,235
+cashew healthy,cashew,245
+jackfruit algal,jackfruit,245
+jackfruit anthracnose,jackfruit,321
+jackfruit healthy,jackfruit,316
+jackfruit leaf spot,jackfruit,368
+jackfruit phyllosticta,jackfruit,344
+jackfruit sooty mold,jackfruit,220
+mango anthracnose,mango,486
+mango die back,mango,493
+mango gall midge,mango,500
+mango healthy,mango,500
+mango powdery mildew,mango,500
+mango sooty mould,mango,209
+tomato bacterial spot,tomato,376
+tomato blight,tomato,285
+tomato curl virus,tomato,394
+tomato healthy,tomato,277
+tomato insect damage,tomato,336
+tomato leaf mold,tomato,222
+tomato spider mites,tomato,307

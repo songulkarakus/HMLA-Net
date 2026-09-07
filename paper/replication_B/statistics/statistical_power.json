@@ -1,0 +1,14 @@
+{
+  "n_blocks": 3,
+  "k_models": 31,
+  "alpha": 0.05,
+  "wilcoxon_min_attainable_p": 0.25,
+  "wilcoxon_can_reach_alpha": false,
+  "min_blocks_for_alpha": 6,
+  "holm_threshold_for_most_significant": 0.0016666666666666668,
+  "holm_can_reach_alpha": false,
+  "nemenyi_cd": 27.831398128333003,
+  "rank_axis_width": 30.0,
+  "cd_as_fraction_of_rank_axis": 0.9277132709444335,
+  "underpowered": true
+}

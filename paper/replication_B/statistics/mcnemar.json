@@ -1,0 +1,45 @@
+{
+  "best_baseline": "vgg19",
+  "best_baseline_experiment": "benchmark",
+  "per_seed": [
+    {
+      "seed": 42,
+      "n01": 5,
+      "n10": 11,
+      "statistic": NaN,
+      "p_value": 0.210113525390625,
+      "test": "exact_binomial",
+      "proposed_acc_ci95": [
+        0.9832869080779945,
+        0.9749303621169917,
+        0.9907149489322191
+      ]
+    },
+    {
+      "seed": 1234,
+      "n01": 4,
+      "n10": 5,
+      "statistic": NaN,
+      "p_value": 1.0,
+      "test": "exact_binomial",
+      "proposed_acc_ci95": [
+        0.989786443825441,
+        0.9832869080779945,
+        0.9953574744661096
+      ]
+    },
+    {
+      "seed": 2024,
+      "n01": 3,
+      "n10": 5,
+      "statistic": NaN,
+      "p_value": 0.7265625,
+      "test": "exact_binomial",
+      "proposed_acc_ci95": [
+        0.9879294336118849,
+        0.9805013927576601,
+        0.9935004642525533
+      ]
+    }
+  ]
+}

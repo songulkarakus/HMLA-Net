@@ -1,0 +1,10 @@
+{
+  "tag": "benchmark/mobilenetv2_100/seed1234",
+  "model": "mobilenetv2_100",
+  "seed": 1234,
+  "started_at": "2026-08-05T06:48:41",
+  "ended_at": "2026-08-05T06:53:36",
+  "run_duration_sec": 294.9,
+  "train_sec_cumulative": 264.0,
+  "n_epochs": 32
+}

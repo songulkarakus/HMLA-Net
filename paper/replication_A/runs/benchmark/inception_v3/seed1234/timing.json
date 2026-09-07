@@ -1,0 +1,10 @@
+{
+  "tag": "benchmark/inception_v3/seed1234",
+  "model": "inception_v3",
+  "seed": 1234,
+  "started_at": "2026-08-05T06:13:52",
+  "ended_at": "2026-08-05T06:20:07",
+  "run_duration_sec": 375.9,
+  "train_sec_cumulative": 337.6,
+  "n_epochs": 30
+}

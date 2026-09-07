@@ -1,0 +1,7 @@
+{
+  "script": "run_benchmark",
+  "started_at": "2026-08-06T01:13:29",
+  "ended_at": "2026-08-06T01:13:32",
+  "total_sec": 3.8,
+  "total_human": "3.8s"
+}

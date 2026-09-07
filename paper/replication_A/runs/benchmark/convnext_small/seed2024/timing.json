@@ -1,0 +1,10 @@
+{
+  "tag": "benchmark/convnext_small/seed2024",
+  "model": "convnext_small",
+  "seed": 2024,
+  "started_at": "2026-08-05T11:26:58",
+  "ended_at": "2026-08-05T11:40:51",
+  "run_duration_sec": 832.5,
+  "train_sec_cumulative": 773.8,
+  "n_epochs": 32
+}

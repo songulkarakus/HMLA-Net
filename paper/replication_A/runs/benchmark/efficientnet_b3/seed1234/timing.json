@@ -1,0 +1,10 @@
+{
+  "tag": "benchmark/efficientnet_b3/seed1234",
+  "model": "efficientnet_b3",
+  "seed": 1234,
+  "started_at": "2026-08-05T06:59:09",
+  "ended_at": "2026-08-05T07:07:48",
+  "run_duration_sec": 518.5,
+  "train_sec_cumulative": 482.1,
+  "n_epochs": 31
+}

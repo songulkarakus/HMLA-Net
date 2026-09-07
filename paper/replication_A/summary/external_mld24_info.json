@@ -1,0 +1,43 @@
+{
+  "n_images": 4800,
+  "per_class": {
+    "mango anthracnose": 800,
+    "mango die back": 800,
+    "mango gall midge": 800,
+    "mango healthy": 800,
+    "mango powdery mildew": 800,
+    "mango sooty mould": 800
+  },
+  "covered_classes": [
+    "mango anthracnose",
+    "mango die back",
+    "mango gall midge",
+    "mango healthy",
+    "mango powdery mildew",
+    "mango sooty mould"
+  ],
+  "max_per_class": null,
+  "source_folders": {
+    "Anthracnose": [
+      "external dataset/MLD24/Anthracnose"
+    ],
+    "Die_Back": [
+      "external dataset/MLD24/Die_Back"
+    ],
+    "Gall_Midge": [
+      "external dataset/MLD24/Gall_Midge"
+    ],
+    "Healthy": [
+      "external dataset/MLD24/Healthy"
+    ],
+    "Powdery_Mildew": [
+      "external dataset/MLD24/Powdery_Mildew"
+    ],
+    "Sooty_Mould": [
+      "external dataset/MLD24/Sooty_Mould"
+    ]
+  },
+  "duplicate_folder_names": {},
+  "external_dir": "external dataset/MLD24",
+  "external_map": "mld24_map.json"
+}

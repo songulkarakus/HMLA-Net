@@ -1,0 +1,17 @@
+{
+  "focus_class": "mango sooty mould",
+  "shared_classes": [
+    "mango anthracnose",
+    "mango die back",
+    "mango gall midge",
+    "mango healthy",
+    "mango powdery mildew",
+    "mango sooty mould"
+  ],
+  "n_models_with_zero_recall_class": 20,
+  "n_models_scanned": 26,
+  "zero_recall_class_counts": {
+    "mango sooty mould": 44
+  },
+  "insect_class_confusion_share": 0.08706989247311828
+}

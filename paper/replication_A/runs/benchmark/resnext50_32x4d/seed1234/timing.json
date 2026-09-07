@@ -1,0 +1,10 @@
+{
+  "tag": "benchmark/resnext50_32x4d/seed1234",
+  "model": "resnext50_32x4d",
+  "seed": 1234,
+  "started_at": "2026-08-05T06:28:54",
+  "ended_at": "2026-08-05T06:36:30",
+  "run_duration_sec": 456.2,
+  "train_sec_cumulative": 417.9,
+  "n_epochs": 27
+}

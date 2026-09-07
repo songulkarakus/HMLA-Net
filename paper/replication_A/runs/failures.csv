@@ -1,0 +1,2 @@
+tag,model,seed,error
+ablation/wo_mixup_cooldown/seed2024,wo_mixup_cooldown,2024,RNG state must be a torch.ByteTensor

@@ -1,0 +1,10 @@
+{
+  "tag": "benchmark/mobilenetv3_large_100/seed2024",
+  "model": "mobilenetv3_large_100",
+  "seed": 2024,
+  "started_at": "2026-08-05T10:34:46",
+  "ended_at": "2026-08-05T10:40:54",
+  "run_duration_sec": 367.9,
+  "train_sec_cumulative": 332.2,
+  "n_epochs": 32
+}
