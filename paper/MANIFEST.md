@@ -1,7 +1,7 @@
 # Manifest: manuscript tables and figures → scripts and sources
 
 All paths are relative to the package root. `N` denotes `output/numbers.json`; functions are in `scripts/`.
-"A" = replication A (submitted execution), "B" = replication B (this revision).
+"A" = replication A (submitted execution), "B" = replication B (the revision).
 
 ## Tables
 

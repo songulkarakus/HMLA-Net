@@ -43,5 +43,13 @@ preferred-citation:
       orcid: "https://orcid.org/0000-0001-6439-7957"
   journal: Symmetry
   year: 2026
-  status: submitted
-  notes: "Under review at Symmetry (MDPI); the DOI will be added upon publication. Code version 1.1.2."
+  volume: 18
+  issue: 9
+  start: 1557
+  doi: 10.3390/sym18091557
+  url: "https://doi.org/10.3390/sym18091557"
+  date-published: 2026-09-17
+  publisher:
+    name: MDPI
+  license: CC-BY-4.0
+  notes: "Code version 1.1.2 is the version cited in the article."

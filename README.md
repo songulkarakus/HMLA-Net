@@ -4,15 +4,12 @@ Official code of the paper
 
 > **Saturated In-Domain, Separable Out-of-Domain: A Hierarchical Multi-Scale Lesion-Attention Network and a Zero-Shot Cross-Corpus Protocol for Multi-Crop Leaf Disease Classification**
 > Songul Karakus, Mehmet Burukanli and Davut Ari
-> Department of Computer Engineering, Bitlis Eren University, Turkiye, 2026.
->
-> **Note:** the manuscript is currently under review at *Symmetry* (MDPI). Full citation
-> details will be added upon publication.
+> Department of Computer Engineering, Bitlis Eren University, Turkiye.
+> *Symmetry* **2026**, *18*(9), 1557. https://doi.org/10.3390/sym18091557 (open access, CC BY 4.0)
 
-**Code version 1.1.2** (September 2026). This release is the code that produced the results
-of the manuscript under review. Should the revision process change any of the reported
-experiments, an updated version will be released under a new tag; the version history is
-kept in the repository tags and in `CITATION.cff`.
+**Code version 1.1.2** (September 2026) is the code that produced the results reported in
+the published article, which cites this version. The version history is kept in the
+repository tags and in `CITATION.cff`.
 
 The repository contains the complete experimental pipeline used in the paper: the proposed
 model, 25 ImageNet-pretrained baselines under one shared training recipe, a 17-variant
@@ -219,15 +216,15 @@ Two points the paper makes explicitly and that the code reproduces:
   within run-to-run variation, so the paper does not attribute it to the architecture.
 
 The full tables, per-image predictions of both executions and the scripts that regenerate
-every table and figure of the manuscript are provided in the `paper/` directory of this repository (Section 8).
+every table and figure of the paper are provided in the `paper/` directory of this repository (Section 8).
 
 ## 8. Partition files, derived numbers and the paper's scripts
 
-`paper/` is the complete evidence base of the manuscript: the exact train / validation / test partitions of
+`paper/` is the complete evidence base of the paper: the exact train / validation / test partitions of
 the three seeds with their SHA-256 fingerprints (`paper/partitions/`), the archived outputs of the 278
 runs of both executions of the benchmark (`paper/replication_A/`, `paper/replication_B/`: configuration,
 metrics, per-class results, selection records, analyses, duplicate audit, class-level forensics), every
-number quoted in the manuscript (`paper/output/numbers.json`), the LaTeX bodies of the generated tables
+number quoted in the paper (`paper/output/numbers.json`), the LaTeX bodies of the generated tables
 (`paper/output/tables/`) and the scripts that derive all of them (`paper/scripts/`; the statistics are
 recomputed from the archived runs by `analyze.py`, and the table bodies kept from the submitted version are
 regenerated and checked by `make_tables_submitted.py`). The per-image
@@ -247,17 +244,20 @@ handling; it is not used for the paper's results.
 
 ## 10. Citation
 
-If you use this code, please cite the paper (under review at *Symmetry*, MDPI; the citation
-will be completed upon publication) and the two data sets:
+If you use this code, please cite the paper and the two data sets:
 
 ```bibtex
-@misc{karakus2026hmlanet,
+@article{karakus2026hmlanet,
   title   = {Saturated In-Domain, Separable Out-of-Domain: A Hierarchical Multi-Scale
              Lesion-Attention Network and a Zero-Shot Cross-Corpus Protocol for
              Multi-Crop Leaf Disease Classification},
   author  = {Karakus, Songul and Burukanli, Mehmet and Ari, Davut},
+  journal = {Symmetry},
   year    = {2026},
-  note    = {Under review at Symmetry (MDPI); citation details will be added upon publication}
+  volume  = {18},
+  number  = {9},
+  pages   = {1557},
+  doi     = {10.3390/sym18091557}
 }
 ```
 
